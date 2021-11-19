@@ -1,0 +1,233 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\citation{bashashati_survey_2007}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Signal Processing and Machine Learning for BCI}{39}{chapter.3}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:lit_survey_sig_process}{{3}{39}{Signal Processing and Machine Learning for BCI}{chapter.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Signal Processing for Cognitive Functions}{39}{section.3.1}}
+\newlabel{sec:sig_process}{{3.1}{39}{Signal Processing for Cognitive Functions}{section.3.1}{}}
+\citation{rivet_xdawn_2009}
+\citation{bhattacharyya_performance_2010}
+\citation{zhang_classification_2015}
+\citation{kumar_design_2010,dingyin_feature_2011,zhang_comparison_2015}
+\citation{kumar_design_2010}
+\citation{gaur_empirical_2015,wang_motor_2011,liu_novel_2011}
+\citation{wang_enhancing_2006,wang_improving_2013,brunner_spatial_2007}
+\citation{ang_filter_2012,barachant_common_2010,blankertz_optimizing_2008}
+\citation{nakanishi_high-speed_2014,kalunga_ssvep_2013}
+\citation{kottaimalai_eeg_2013,yu_analysis_2014}
+\citation{rivet_xdawn_2009}
+\citation{lotte_review_2007,nicolas-alonso_brain_2012,bashashati_survey_2007,khorshidtalab_eeg_2011,krusienski_critical_2011}
+\citation{fukunaga_introduction_1990}
+\citation{rivet_xdawn_2009,pfurtscheller_self-paced_2010,spuler_one_2012}
+\citation{haselsteiner_using_2000,sturm_interpretable_2016}
+\citation{friedman_regularized_1989,bhattacharyya_performance_2010}
+\citation{obermaier_hidden_2001,lee_pca+hmm+svm_2003,yan_classifying_2008}
+\citation{cincotti_comparison_2003,schlogl_characterization_2005,bhattacharyya_performance_2010}
+\citation{ang_filter_2012,spuler_one_2012,rivet_xdawn_2009}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces BCI signal processing pipeline. The fundamental blocks for machine learning are in blue (\textit  {i.e.} spatial filtering and classification). Filters and classifiers are learned from training data. Gray blocks (\textit  {i.e.} preprocessing and feature representation) do not require learning. }}{41}{figure.3.1}}
+\newlabel{fig:processing_pipeline}{{3.1}{41}{BCI signal processing pipeline. The fundamental blocks for machine learning are in blue (\textit {i.e.} spatial filtering and classification). Filters and classifiers are learned from training data. Gray blocks (\textit {i.e.} preprocessing and feature representation) do not require learning}{figure.3.1}{}}
+\citation{koles_spatial_1990}
+\citation{dornhege_increase_2004,popescu_single_2007}
+\citation{blankertz_optimizing_2008}
+\citation{blankertz_optimizing_2008}
+\newlabel{eq:eeg_model}{{3.1.1}{42}{Signal Processing for Cognitive Functions}{equation.3.1.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Motor Imagery Processing}{42}{subsection.3.1.1}}
+\newlabel{subsec:sign_proc_mi}{{3.1.1}{42}{Motor Imagery Processing}{subsection.3.1.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Common Spatial Patterns}{42}{section*.14}}
+\newlabel{eq:csp}{{3.1.2}{42}{Common Spatial Patterns}{equation.3.1.2}{}}
+\newlabel{fig:class_scatter_before_csp}{{3.2(a)}{43}{Subfigure 3 3.2(a)}{subfigure.3.2.1}{}}
+\newlabel{sub@fig:class_scatter_before_csp}{{(a)}{43}{Subfigure 3 3.2(a)\relax }{subfigure.3.2.1}{}}
+\newlabel{fig:class_scatter_after_csp}{{3.2(b)}{43}{Subfigure 3 3.2(b)}{subfigure.3.2.2}{}}
+\newlabel{sub@fig:class_scatter_after_csp}{{(b)}{43}{Subfigure 3 3.2(b)\relax }{subfigure.3.2.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces CSP effect on class distribution. CSP is applied on a 2D toy data set containing samples from two classes marked with red crosses and blue circles. (a) Samples distribution is shown before CSP filtering. The ellipses show estimates of each class covariance. It can be seen that the two classes are highly correlated. The dashed lines show the direction of the CSP projections $\mathbf  {w}_j$ ($j=1,2$). (b) Distributions after CSP projections. The two distributions are orthogonal, showing that the two classes are uncorrelated. Each axis gives the largest variance in one class and the smallest in the other. \citep  [Image from][]{blankertz_optimizing_2008}.}}{43}{figure.3.2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{43}{figure.3.2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{43}{figure.3.2}}
+\newlabel{fig:class_scatter_csp}{{3.2}{43}{CSP effect on class distribution. CSP is applied on a 2D toy data set containing samples from two classes marked with red crosses and blue circles. (a) Samples distribution is shown before CSP filtering. The ellipses show estimates of each class covariance. It can be seen that the two classes are highly correlated. The dashed lines show the direction of the CSP projections $\mathbf {w}_j$ ($j=1,2$). (b) Distributions after CSP projections. The two distributions are orthogonal, showing that the two classes are uncorrelated. Each axis gives the largest variance in one class and the smallest in the other. \citep [Image from][]{blankertz_optimizing_2008}}{figure.3.2}{}}
+\newlabel{eq:covmat1}{{3.1.3}{43}{Common Spatial Patterns}{equation.3.1.3}{}}
+\citation{blankertz_optimizing_2008}
+\citation{blankertz_optimizing_2008}
+\citation{koles_spatial_1990,blankertz_optimizing_2008}
+\citation{dornhege_increase_2004,grosse-wentrup_multiclass_2008}
+\newlabel{eq:csp_problem}{{3.1.5}{44}{Common Spatial Patterns}{equation.3.1.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip {Effect of CSP filtering. A continuous EEG signal containing two right-hand imagery epochs and one left-hand imagery is filtered using four CSP filters ($\mathbf  {w}_j$): csp:R1, csp:R2, csp:L1, and csp:L2. The resulting signals from csp:R1 and csp:R2 have large variance during left hand imagery, while signals from csp:L1 and csp:L2 have large variance during right hand imagery. \citep  [Image from][]{blankertz_optimizing_2008}.} }}{44}{figure.3.3}}
+\newlabel{fig:csp_effect}{{3.3}{44}{\footnotesize {Effect of CSP filtering. A continuous EEG signal containing two right-hand imagery epochs and one left-hand imagery is filtered using four CSP filters ($\mathbf {w}_j$): csp:R1, csp:R2, csp:L1, and csp:L2. The resulting signals from csp:R1 and csp:R2 have large variance during left hand imagery, while signals from csp:L1 and csp:L2 have large variance during right hand imagery. \citep [Image from][]{blankertz_optimizing_2008}.}}{figure.3.3}{}}
+\newlabel{eq:csp_gen_eigen}{{3.1.6}{44}{Common Spatial Patterns}{equation.3.1.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Linear Discriminant Analysis}{45}{section*.15}}
+\newlabel{eq:lda-class-orig-mean}{{3.1.8}{45}{Linear Discriminant Analysis}{equation.3.1.8}{}}
+\newlabel{eq:lda-class-proj-mean}{{3.1.9}{45}{Linear Discriminant Analysis}{equation.3.1.9}{}}
+\citation{duda_pattern_2001}
+\newlabel{eq:lda-within-class-scatter}{{3.1.10}{46}{Linear Discriminant Analysis}{equation.3.1.10}{}}
+\newlabel{eq:lda-criteria}{{3.1.11}{46}{Linear Discriminant Analysis}{equation.3.1.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip {LDA mapping. The distance $|\mathaccentV {tilde}07E{\ensuremath  {\mathbf  {m}}}_{(+)}-\mathaccentV {tilde}07E{\ensuremath  {\mathbf  {m}}}_{(+)}|$} is maximised relative to class variance such as the separability is maximised ($J(\ensuremath  {\mathbf  {w}})$) }}{46}{figure.3.4}}
+\newlabel{fig:lda}{{3.4}{46}{\footnotesize {LDA mapping. The distance $|\tilde {\m }_{(+)}-\tilde {\m }_{(+)}|$} is maximised relative to class variance such as the separability is maximised ($J(\w )$)}{figure.3.4}{}}
+\newlabel{eq:lda-criteria2}{{3.1.12}{46}{Linear Discriminant Analysis}{equation.3.1.12}{}}
+\newlabel{lda-b-scatter}{{3.1.13}{46}{Linear Discriminant Analysis}{equation.3.1.13}{}}
+\newlabel{lda-w-scatter}{{3.1.14}{46}{Linear Discriminant Analysis}{equation.3.1.14}{}}
+\citation{bhattacharyya_performance_2010}
+\citation{scikit-learn}
+\citation{scikit-learn}
+\citation{lin_frequency_2006}
+\citation{bin_online_2009,nakanishi_high-speed_2014}
+\citation{spuler_one_2012,kalunga_ssvep_2013}
+\newlabel{fig:lda-separate-data}{{3.5(a)}{47}{Subfigure 3 3.5(a)}{subfigure.3.5.1}{}}
+\newlabel{sub@fig:lda-separate-data}{{(a)}{47}{Subfigure 3 3.5(a)\relax }{subfigure.3.5.1}{}}
+\newlabel{fig:qda-separate-data}{{3.5(b)}{47}{Subfigure 3 3.5(b)}{subfigure.3.5.2}{}}
+\newlabel{sub@fig:qda-separate-data}{{(b)}{47}{Subfigure 3 3.5(b)\relax }{subfigure.3.5.2}{}}
+\newlabel{fig:lda-overlap-data}{{3.5(c)}{47}{Subfigure 3 3.5(c)}{subfigure.3.5.3}{}}
+\newlabel{sub@fig:lda-overlap-data}{{(c)}{47}{Subfigure 3 3.5(c)\relax }{subfigure.3.5.3}{}}
+\newlabel{fig:qda-overlap-data}{{3.5(d)}{47}{Subfigure 3 3.5(d)}{subfigure.3.5.4}{}}
+\newlabel{sub@fig:qda-overlap-data}{{(d)}{47}{Subfigure 3 3.5(d)\relax }{subfigure.3.5.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces QDA versus LDA. Data from two subsets shows with red and blue circles are classified with either LDA (in (a) and (c)) or QDA (in (b) and (d)). The black lines show the classifier separation line. Wrongly classified data are shown with squares instead of circles. Class covariances are shown with ellipses of corresponding colours. In (a) and (b), the two subsets have similar covariance, while in (c) and (d) they have different covariance \citep  {scikit-learn}}}{47}{figure.3.5}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{47}{figure.3.5}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{47}{figure.3.5}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{47}{figure.3.5}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {}}}{47}{figure.3.5}}
+\newlabel{fig:lda-qda}{{3.5}{47}{QDA versus LDA. Data from two subsets shows with red and blue circles are classified with either LDA (in (a) and (c)) or QDA (in (b) and (d)). The black lines show the classifier separation line. Wrongly classified data are shown with squares instead of circles. Class covariances are shown with ellipses of corresponding colours. In (a) and (b), the two subsets have similar covariance, while in (c) and (d) they have different covariance \citep {scikit-learn}}{figure.3.5}{}}
+\citation{hardoon_canonical_2004}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}SSVEP Processing}{48}{subsection.3.1.2}}
+\newlabel{subsec:sign_proc_ssvep}{{3.1.2}{48}{SSVEP Processing}{subsection.3.1.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Canonical Correlation Analysis}{48}{section*.16}}
+\newlabel{subsubsec:cca}{{3.1.2}{48}{Canonical Correlation Analysis}{section*.16}{}}
+\newlabel{eq:cca-rho}{{3.1.15}{48}{Canonical Correlation Analysis}{equation.3.1.15}{}}
+\citation{scholkopf_learning_2001,ang_filter_2008,ang_filter_2012}
+\newlabel{eq:ref-sig}{{3.1.16}{49}{Canonical Correlation Analysis}{equation.3.1.16}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Support Vector Machine}{49}{section*.17}}
+\newlabel{subsubsec:svm}{{3.1.2}{49}{Support Vector Machine}{section*.17}{}}
+\newlabel{eq:svm_fct}{{3.1.17}{49}{Support Vector Machine}{equation.3.1.17}{}}
+\citation{scikit-learn}
+\citation{scikit-learn}
+\newlabel{eq:svm_problem}{{3.1.18}{50}{Support Vector Machine}{equation.3.1.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Examples of SVM classifiers. SVM is applied on 2D artificial data forming two classes represented in red and blue. The hyperplane $\left \delimiter "426830A \ensuremath  {x}_i, \ensuremath  {\mathbf  {w}}\right \delimiter "526930B + b = 0$ separating the two classes is shown, as well as the margins$\left \delimiter "426830A \ensuremath  {x}_i, \ensuremath  {\mathbf  {w}}\right \delimiter "526930B + b \geq \frac  {1}{||\ensuremath  {\mathbf  {w}}||}$. Only few samples relatively close to the hyperplanes are used as support vectors; they are shown with big circles \citep  {scikit-learn}.}}{50}{figure.3.6}}
+\newlabel{fig:svm}{{3.6}{50}{Examples of SVM classifiers. SVM is applied on 2D artificial data forming two classes represented in red and blue. The hyperplane $\left \langle \x _i, \w \right \rangle + b = 0$ separating the two classes is shown, as well as the margins$\left \langle \x _i, \w \right \rangle + b \geq \frac {1}{||\w ||}$. Only few samples relatively close to the hyperplanes are used as support vectors; they are shown with big circles \citep {scikit-learn}}{figure.3.6}{}}
+\citation{scikit-learn}
+\citation{scikit-learn}
+\citation{chang_libsvm:_2011}
+\newlabel{eq:kernel-phi}{{3.1.19}{51}{Support Vector Machine}{equation.3.1.19}{}}
+\newlabel{eq:kernel-phi2}{{3.1.20}{51}{Support Vector Machine}{equation.3.1.20}{}}
+\newlabel{fig:svm-linear-kernel}{{3.7(a)}{51}{Subfigure 3 3.7(a)}{subfigure.3.7.1}{}}
+\newlabel{sub@fig:svm-linear-kernel}{{(a)}{51}{Subfigure 3 3.7(a)\relax }{subfigure.3.7.1}{}}
+\newlabel{fig:svm-poly-kernel}{{3.7(b)}{51}{Subfigure 3 3.7(b)}{subfigure.3.7.2}{}}
+\newlabel{sub@fig:svm-poly-kernel}{{(b)}{51}{Subfigure 3 3.7(b)\relax }{subfigure.3.7.2}{}}
+\newlabel{fig:svm-rbf-kernel}{{3.7(c)}{51}{Subfigure 3 3.7(c)}{subfigure.3.7.3}{}}
+\newlabel{sub@fig:svm-rbf-kernel}{{(c)}{51}{Subfigure 3 3.7(c)\relax }{subfigure.3.7.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Multiclass SVM classification with different kernels on 2D projection of the iris dataset. The decision surface separating three classes are shown. The x-axis and y-axis represent sepal length and sepal width respectively. (a) Linear kernel, (b) polynomial kernel of order 3, (c) RBF kernel \citep  {scikit-learn}.}}{51}{figure.3.7}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{51}{figure.3.7}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{51}{figure.3.7}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{51}{figure.3.7}}
+\newlabel{fig:svm-kernels}{{3.7}{51}{Multiclass SVM classification with different kernels on 2D projection of the iris dataset. The decision surface separating three classes are shown. The x-axis and y-axis represent sepal length and sepal width respectively. (a) Linear kernel, (b) polynomial kernel of order 3, (c) RBF kernel \citep {scikit-learn}}{figure.3.7}{}}
+\newlabel{eq:linear-kernel}{{3.1.21}{51}{Support Vector Machine}{equation.3.1.21}{}}
+\newlabel{eq:poly-kernel}{{3.1.22}{51}{Support Vector Machine}{equation.3.1.22}{}}
+\newlabel{eq:rbf-kernel}{{3.1.23}{51}{Support Vector Machine}{equation.3.1.23}{}}
+\citation{rakotomamonjy_ensemble_2005}
+\citation{rivet_xdawn_2009}
+\citation{rivet_theoretical_2011}
+\citation{barachant_plug&play_2014,barachant_p300-speller:_2015}
+\citation{rakotomamonjy_ensemble_2005,krusienski_toward_2008,rivet_xdawn_2009,jrad_sw-svm:_2011,cecotti_robust_2011,mak_optimizing_2011}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}P300 Processing}{52}{subsection.3.1.3}}
+\newlabel{subsec:sign_proc_p300}{{3.1.3}{52}{P300 Processing}{subsection.3.1.3}{}}
+\citation{rivet_theoretical_2011}
+\citation{rivet_xdawn_2009}
+\@writefile{toc}{\contentsline {subsubsection}{xDAWN}{53}{section*.18}}
+\newlabel{eq:xdawn-problem}{{3.1.25}{53}{xDAWN}{equation.3.1.25}{}}
+\newlabel{eq:ssnr}{{3.1.26}{53}{xDAWN}{equation.3.1.26}{}}
+\newlabel{eq:xdawn-gen-eigen}{{3.1.27}{53}{xDAWN}{equation.3.1.27}{}}
+\citation{lotte_review_2007,nicolas-alonso_brain_2012,bashashati_survey_2007,khorshidtalab_eeg_2011,krusienski_critical_2011}
+\citation{congedo_new_2013}
+\citation{fukunaga_introduction_1990,foley_considerations_1972,kanal_dimensionality_1971,raudys_small_1991}
+\newlabel{eq:xdawn-initial}{{3.1.29}{54}{xDAWN}{equation.3.1.29}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.4}Discussion}{54}{subsection.3.1.4}}
+\citation{hill_classifying_2006}
+\citation{pan_survey_2010}
+\citation{kang_composite_2009,wang_review_2015}
+\citation{barachant_bci_2012,barachant_classification_2013}
+\citation{yger_review_2013}
+\citation{jayasumana_kernel_2013}
+\citation{barachant_multiclass_2012}
+\citation{xie_nonlinear_2013}
+\citation{goh_unsupervised_2008}
+\citation{goh_clustering_2008}
+\citation{pennec_riemannian_2006}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Riemannian Approaches in Machine Learning}{56}{section.3.2}}
+\newlabel{sec:riemann_approach}{{3.2}{56}{Riemannian Approaches in Machine Learning}{section.3.2}{}}
+\citation{barachant_multiclass_2012}
+\citation{barachant_riemannian_2010}
+\citation{barachant_riemannian_2013}
+\citation{amari_information_2010}
+\citation{samek_robust_2013,samek_information_2014}
+\citation{barachant_channel_2011}
+\citation{barachant_common_2010}
+\citation{congedo_new_2013}
+\citation{li_eeg_2009,li_electroencephalogram_2012}
+\citation{millan_combining_2010}
+\citation{zander_towards_2011}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}New Trend in BCI Systems}{58}{section.3.3}}
+\newlabel{sec:new_trends_BCI}{{3.3}{58}{New Trend in BCI Systems}{section.3.3}{}}
+\citation{ferrez_simultaneous_2008,allison_toward_2010,finke_hybrid_2011}
+\citation{scherer_self-initiation_2007}
+\citation{leeb_multimodal_2010}
+\citation{millan_asynchronous_2009,millan_noninvasive_2004}
+\citation{millan_combining_2010}
+\citation{millan_combining_2010}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Hybrid BCI systems}{59}{subsection.3.3.1}}
+\newlabel{sec:hBCI-systems}{{3.3.1}{59}{Hybrid BCI systems}{subsection.3.3.1}{}}
+\citation{zander_towards_2011}
+\citation{zander_towards_2011}
+\citation{george_overview_2010}
+\citation{cutrell_bci_2008,girouard_designing_2013}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Passive BCI}{60}{subsection.3.3.2}}
+\citation{cutrell_bci_2008,george_overview_2010}
+\citation{ferrez_error-related_2008,ferrez_simultaneous_2008,george_overview_2010}
+\citation{liang_closed-loop_2010}
+\citation{huster_braincomputer_2014,hao_visual_2014}
+\citation{yuksel_implicit_2015}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Proposed Approach}{61}{section.3.4}}
+\newlabel{sec:proposed-approach}{{3.4}{61}{Proposed Approach}{section.3.4}{}}
+\citation{millan_combining_2010}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Adopted machine learning pipeline. It consists of 3 main phases: 1) Offline model selection: A number of preprocessing and classifiers are tested on a collection of data from multiple subjects, the best combination is selected. 2) Training phase: Classifier parameters are trained for each new subject before classification. 3) Classification: A new [unseen] sample is preprocessed similarly to training data, then classified.}}{63}{figure.3.8}}
+\newlabel{fig:porposed-pipeline}{{3.8}{63}{Adopted machine learning pipeline. It consists of 3 main phases: 1) Offline model selection: A number of preprocessing and classifiers are tested on a collection of data from multiple subjects, the best combination is selected. 2) Training phase: Classifier parameters are trained for each new subject before classification. 3) Classification: A new [unseen] sample is preprocessed similarly to training data, then classified}{figure.3.8}{}}
+\@setckpt{T3}{
+\setcounter{page}{64}
+\setcounter{equation}{0}
+\setcounter{enumi}{0}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{0}
+\setcounter{mpfootnote}{0}
+\setcounter{part}{0}
+\setcounter{chapter}{3}
+\setcounter{section}{4}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{0}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{8}
+\setcounter{table}{0}
+\setcounter{Item}{0}
+\setcounter{Hfootnote}{1}
+\setcounter{bookmark@seq@number}{32}
+\setcounter{float@type}{8}
+\setcounter{parentequation}{0}
+\setcounter{subfigure}{0}
+\setcounter{lofdepth}{1}
+\setcounter{subtable}{0}
+\setcounter{lotdepth}{1}
+\setcounter{algorithm}{0}
+\setcounter{ALG@line}{0}
+\setcounter{ALG@rem}{0}
+\setcounter{ALG@nested}{0}
+\setcounter{ALG@Lnr}{2}
+\setcounter{ALG@blocknr}{10}
+\setcounter{ALG@storecount}{0}
+\setcounter{ALG@tmpcounter}{0}
+\setcounter{lips@count}{0}
+\setcounter{r@tfl@t}{0}
+\setcounter{AM@survey}{0}
+\setcounter{NAT@ctr}{0}
+\setcounter{thm}{0}
+\setcounter{defn}{0}
+\setcounter{rem}{0}
+\setcounter{section@level}{1}
+}

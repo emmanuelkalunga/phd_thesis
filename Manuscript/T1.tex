@@ -1,0 +1,246 @@
+% ------------------------------------------------------------------------
+% -*-TeX-*- -*-Hard-*- Smart Wrapping
+% ------------------------------------------------------------------------
+%%% Thesis Introduction --------------------------------------------------
+
+%\addtolength{\topmargin}{-.875in}
+%\addtolength{\textheight}{.875in}
+%\footskip
+%\nonumchapter{Introduction}
+
+\chapter{Introduction}
+\label{chap:intro}
+\epigraph{The only way of discovering the limits of the possible is to venture a little way past them into the impossible.}{--- \textup{ Arthur C. Clarke}, Profiles of the Future: An Enquiry into the Limits of the Possible}
+
+This chapter follows the structure of the Tshwane University of Technology's theses. It is an introductory chapter that lays out the background of the research field, states the research problem and objective, and summarises the contribution brought by this work to the research filed.   
+\section{Background}% and justification
+
+%This should be a quick overview of BCI with the following points:
+%1) Definition and Objective of BCI
+%2) Quick Description of a BCI components
+%3) Quick history of BCI (measure events and turning points in BCI research)
+%4) The current state of the art (generally what can be achieved by BCI technology, where we currently stand in the research without insiting on the limitations. 
+%5) BCI types -> mention them and their pros and cons
+%6) Usability of BCI (practical use, BCI illiteracy)
+%7) Signal processing: Machine learning pipeline => Cov mat => Riemannian => Training sample size vs. Feature space (curse of dimensionality)
+%References:
+%- Brain–computer interfaces in neurological rehabilitation, Janis J Daly and Jonathan R Wolpaw 2008
+%- Combining brain–computer interfaces and assistive technologies: state-of-the-art and challenges, J. d. R. Millán et al. 2010
+%- Brain Computer Interfaces, a Review. Luis Fernando Nicolas-Alonso and Jaime Gomez-Gil 2012
+Brain-computer interfaces (BCI) also called brain machine interfaces (BMI) are devices that translates measured brain activity into tangible actions, allowing humans and apes to interact with the physical environment without using their muscular system.
+In the last two decades, interest in brain-computer interfaces has tremendously grown, with a number of research laboratories working on the topic. 
+Since the \emph{Brain-Computer Interface Project}~\citep{vidal_toward_1973}, joint effort from researchers in electronics, neuroscience, electrical engineering, signal processing, and machine learning -- to name but a few, has promoted the use of BCI in different applications such as neurofeedback, entertainment, and assistance. 
+Better understanding, improved measurement and processing of electroencephalograms (EEG) are at the centre of the growth of non-invasive EEG based BCI. 
+These interfaces have brought a complete paradigm shift to assistive technologies. 
+In fact, unlike traditional human machine interfaces, BCI do not rely on motor abilities. 
+Bypassing the neuromuscular pathways, BCI constitutes a golden opportunity for people with limited neuromuscular abilities or serious brain injuries. Brain-computer interfaces can be used for control or communication in replacement of traditional assistive devices~\citep{wolpaw_brain-computer_2002}, or for improved human-machine interaction as a passive user feedback to the machine~\citep{zander_towards_2011}.
+
+BCI systems rely on neurological phenomena that can be measured in the brain signal -- in response to a stimulus or a mental task, then quantified and interpreted using signal processing and machine learning techniques.
+Currently, the most used phenomena are the Steady State Visual Evoked Potential (SSVEP), Motor Imagery (MI) and P300 event-related potential. 
+They respectively define three types of BCIs, each with limitations and advantages that can be exploited to achieve reliable brain-computer communication.  
+In each BCI type, an appropriate experimental protocol is designed to stimulate the neurological response. 
+
+Although there are nowadays various techniques used to measure neuronal electrical activities in BCI (\emph{e.g.} electrocorticography (ECoG), spikes and local field potentials (LFP), magnetoencephalography (MEG), etc.), EEG is still the main technique in BCI research. 
+Despite its vulnerability to noise and low spatial resolution, EEG is appreciated over other techniques for its high temporal and spectral resolutions, its affordable, mobile and non-invasive acquisition equipment. 
+Various electrodes types, configurations, and mounting are being proposed to improve the quality of recorded EEG, improve comfort, and reduce the setup time \citep{looney_--ear_2012, badcock_validation_2013}.  
+
+Advances have been made in the signal processing and machine learning to extract the signal of interest from the ongoing brain activity and noise recorded in EEG.
+Particularly spatial filters are reported to successfully extract the signal of interest related to the BCI task. 
+They have been used to achieve the most successful performance in various BCI types \citep{ang_filter_2012, rivet_xdawn_2009, spuler_one_2012, kalunga_ssvep_2013, nakanishi_high-speed_2014}.
+Spatial patterns learned in filters are well captured by the covariance matrices of the mutlichannel EEG signal, which are key components in the computation of spatial filters.
+Once a spatial filter has been applied, a standard classification algorithm (e.g. LDA, SVM) can be used.   
+
+Both spatial filter and classifier parameters are optimised offline using a training sample of recorded EEG data.
+A bias-variance threshold can be achieved through a cross-validation process.
+To use a BCI system, depending on the BCI type, a user might be required to go through a training where he will be trained to control his brain signals (\textit{i.e.} elicit appropriate phenomena). 
+The user is also required to record multiple EEG trials to constitute a training sample for the machine learning algorithm. 
+The training sample should be large enough to avoid the problems of overfitting and signal components should be carefully selected in order to alleviate the curse of dimensionality to which BCI is prone due to the high dimensional feature space of multichannel EEG data. 
+%Dimensionality reduction techniques can be used to alleviate such problems. 
+
+Initially designed for clinical as well as rehabilitative and assistive purposes, brain computer interfaces have gained more grounds with applications to neurofeedback, navigation, training and education, gaming and entertainment, etc. \citep{millan_invasive_2010, van_erp_brain-computer_2012, lotte_electroencephalography_2015, abdulkader_brain_2015, mensia_mensia_2016,melomind_melomind_2016}.
+ 
+\section{Research Problem}
+\label{sec:research_problem}
+
+Despite the opportunities seen in BCI and the advances made in BCI research, particularly in brain signal acquisition techniques, signal processing and machine learning approaches, there have been only a few applications that have done well in the market \citep{mensia_mensia_2016,melomind_melomind_2016,gtec_intendix_2017}. 
+The technology has not matured enough for a broad usage by the public in delicate applications.
+There is a number of limitations that should be overcome before BCI applications could be taken outside laboratories. 
+In the current work some of these problems are addressed. 
+
+\subsection*{Problem 1: User's Physical Specificity}
+
+%- Bypassing neuro-muscular pathways 
+%	=> One solution for all
+%	=> Subject with residual motor skills (traditional devices perform better than state-of-the art BCI
+%	=> Cognitive load
+%	=> BCI illiteracy with one type of BCI, but efficient in others
+
+Current BCI systems are built around their potential to bypass the neuromuscular system.
+This perspective results in interfaces that are the sole remedy for completely locked-in patients as they cannot use any traditional assistive devices (\textit{i.e.} muscle dependent).
+In this approach, all the effort is turned toward the BCI system and its capacity to classify users intentions. 
+No much attention is paid to the specificity of the user.
+Problems with this approach emerge as users adapt differently to BCI and express different needs. 
+They can be depicted in three facts.
+Fist, the problem of BCI inefficiency (or illiteracy). There is a reported 15 to 30\% of people who cannot use brain computer interface \citep{allison_could_2010}. 
+An important fact, however, is that while they show illiteracy with one BCI type (e.g. SSVEP), they can still be efficient in using another type of BCI (e.g. motor imagery).
+Secondly, the locked-in patients constitute a minority of potential BCI users. 
+For rehabilitation and assistive applications, other than locked-in patients, the majority of people with motor disabilities or severe brain injuries retain different residual motor skills.
+Therefore the extend to which they rely on BCI command might differ. 
+Lastly, there is a high cognitive load that accompanies the command of BCI interface, and can affect users differently.
+These facts show that BCI should not be designed as a disruptive unique solution for all users. 
+There is a need to adapt to each user's special skills and needs.    						 
+
+%Brain computer interface bypasses the neuro-muscular pathways and thus constitutes a good remedy for locked-in patients. 
+%Next to them is the vast majority of patients with motor disabilities who still retain some residual motor abilities, that are different and specific for each disability. Irrespective of their specificities, BCI proposes a unique and disruptive solution to all, a solution that will not use the muscular system. 
+%However, for rehabilitation purposes it is important to use the muscular system.
+%Moreover, for healthy persons and disabled persons who retain some motor abilities, the sate-of-the art in BCI for control (or active BCI) offers low reliability and slow communication transfer rate compared to alternatives offered by input channels used in traditional assistive technologies such as joysticks %\cite{Zander2011}. 
+%It is therefore not a realistic option not to use the muscular system where there is a possibility of doing so, to fully rely on the cerebral commands. 
+%%How do we then take into consideration the various special abilities of BCI users? 
+
+\subsection*{Problem 2: Robustness of EEG Representation and Machine Learning}
+
+The main limitations in EEG based BCI are related to signal quality of EEG, namely the poor spatial resolution of EEG and its vulnerability to artefacts. ~%\cite{NIE04}.
+To avoid the influence of noise in the EEG, experiments are conducted in laboratories where the ambient noise is controlled, and tight experimental settings are used to restrict users' movements and avoid muscular noise. 
+Environmental and muscular noise are not the only artefacts; ongoing brain activities that are not related to the neurological phenomenon used in the BCI task also reduce the signal-to-noise ratio.  
+To alleviate these challenges, spatial filters are commonly used to reconstruct the most informative sources and separate signal from artefacts. 
+However, spatial filters are fitted to the training data and the artefact therein. 
+They perform well as long as the conditions in which the training data were recorded are kept. 
+In reality however, variations in EEG structure are observed along a recording due both to internal and external factors. 
+Internally, there are evidences of intra-subject variabilities due to the changing state of mind and fatigue in users.
+Externally, environmental noise cannot be controlled out of laboratories.   
+In such conditions, it becomes crucial to have a feature representation and learning algorithms that are robust to changing conditions and artefacts. 
+%Can we learn develop algorithms that are robust to changing environments?   
+
+\subsection*{Problem 3: Scarcity of Training Samples}
+%* Machine learning algo need sufficient training sample:
+%	=> Big enough in relation of the feature space which is usually high dimensional in BCI
+%	=> If not enough, -> Cure of dimetionality and overfitting
+%	=> Difficult in BCI to constitude such big samples
+%		=> Unless user goes through a rigorous and long EEG trials recording.
+
+The algorithms used in the machine learning pipeline (\textit{i.e.} spatial filters and classifiers) require sufficient training data to achieve a sound statistical learning.
+The sample of EEG to be classified should be drawn from the same distribution as the training sample used for the optimisation of machine learning parameters. 
+This is guaranteed  by using training and testing samples recorded from a single subject in similar experimental conditions.
+The training sample size is proportional to the dimension of the EEG feature space which is usually high due to multichannel recording, high temporal and spectral resolutions of recorded EEG.
+In BCI, it is difficult to constitute such large training samples for all subjects, as it requires a rigorous and long recording of EEG trials. 
+It is a burden for BCI users and it is not always possible to record a sufficient and well labelled training sample due to different reasons (e.g. fatigue, lack of concentration).
+For user convenience, such a process should be kept short, or better, not required at all.  
+%it is desirable to have a ``plug-and-play'' system where users would not be require to go through a pre-recoding phase to constitute a training sample for the machine learning algorithm. 
+When the training sample is not large enough, statistical learning is not possible, constrained by the curse of dimensionality, or over-fitting will be inevitable.
+   
+%As stated above, in BCI, as in other machine learning applications, the classification of brain signals relies on the parameters learnt on previously recorded data. 
+%Such data are recorded in the same settings to those used in experimental (online) conditions, and most importantly, on the same user. 
+%Consequently, classification parameters (classifiers) are tight to the user and the experimental conditions. 
+%Thus, using state-of-the-art algorithms, BCI users are required to go through a [lengthy] training session, in a controlled environments and limited noise, to record data used for learning of the classifiers.
+%This is a burden for BCI users and is not always possible to record a sufficient and well labelled training data set due to either lack of concentration, tiredness, or BCI illiteracy. 
+%Moreover, it limits the online experiment to conditions similar to those used in the training session Classification techniques that are known as adaptive, are so called with regard to the fact that their learning scheme can be used for any subject, provided that their are trained on data recorded in specific experimental settings from the specific subject.
+%Some recent works have investigated techniques that can classify brain signals based on data set made of user's own signals, and signals recorded form other subjects [ref]. 
+%Though they achieve promising results, the classification performances are significantly dropped from single subject based training data set to multi-subject based training data set. 
+%Further investigation is therefore needed.  
+
+\section{Research Objectives and Contributions}
+
+\subsection{Objectives}
+Considering the problems that will be addressed, the objective of this research is to propose ways of achieving a brain-computer interface that is adapted to the needs and environment of the user,  through leverage of user's special skills and robust machine learning.
+ 
+%\subsection*{Objective 1} %hybrid interface
+%\emph{To leverage BCI users residual motor abilities by proposing an interface that is adapted to their handicap.}
+%Our objective is to use BCI while taking into consideration the physical particularities of the users. Allowing subjects to use their residual motor abilities is crucial for neuro-rehabilitation and will enhance the interaction (\textit{i.e.} communication and control).  
+%   
+%\subsection*{Objective 2} %Riemannian geom
+%\emph{To identify features that invariant across various experimental settings and various subjects.}
+%
+%\subsection{Objective 3} %Online Algo based on riemann geom
+%\emph{To develop an online learning scheme that is robust to internal and environmental disturbances.}
+%
+%\subsection*{Objective 4} %Data augmentation and transfer learning
+%\emph{To eliminate or reduce recording of training data set for some subjects by relying on data recorded from previous users.} 
+%As some subjects cannot achieve a well labelled brain signal data for classifiers training either due to tiredness or BCI inefficiency, it becomes interesting to investigate whether classifiers could rely on training data recorded from previous subjects to classify EEG recorded in subjects with no or little training data. Achieving this will also allow a more stable and generalising learning scheme based on larger training sets (data bases), recorded from various subjects.
+%
+%\section{Hypotheses}
+%\subsection*{Hypothesis 1}
+%Using information Geometry, particularly covariance matrices of multichannel brain signals in Riemannian Geometry will allow capturing global invariant patterns -- across sessions and users -- related to relevant brain activities and discriminating amongst them by evaluating the appropriate distance among their features. Using global invariant features will increase robustness to disturbances.
+%\subsection*{Hypothesis 2}
+%Implementing a transfer learning in BCI will allow classifiers to inherit from parameters learned from previous users' data to classify brain signal of users with small or no training data set. Thus eliminating or reducing lengthy training phase in some subjects.
+%\subsection*{Hypothesis 3}
+%Some users will have similar brain responses when exposed to the same stimuli, resulting in similar features in the recorded signals. These features might also be very different in other users. A subjects clustering or profiling will allow the classifiers or learning scheme that relies on data from previous users to only use data from users that have been identified as being of the same profile and improve the results of transfer learning.    
+%%Subject clustering will limit discrepancies in data set, while allowing a multi-subject training set.
+
+\subsection{Research Contributions}
+This research contributes to the maturation of brain computer interfaces on two levels: BCI methodology and machine learning.
+
+On the level of BCI methodology,
+a new BCI approach in the context of rehabilitation and assistive technology that takes into account users' specificities is proposed.      
+It consists of a hybrid BCI system where cerebral commands are combined with muscular commands to achieve an adapted human machine interaction.
+The muscular interface is designed to fit user's residual motor abilities, while the BCI type is selected based on the user's experience.
+The concept is demonstrated for patients with degenerative diseases that affect large muscles but spare the wrists and hands motor capacities.
+For such patients,  
+an adapted 3D touchless interface is used for continuous control and a BCI based on steady-state visually evoked potential (SSVEP) -- i.e a synchronisation of the brain electrical wave at the frequency of an oscillating visual stimulus,  is used for discrete control (e.g. triggering specific actions).   
+While the touchless interface allows the subject to use their residual motor abilities, the SSVEP-based BCI with state-of-the-art signal processing and machine learning~\citep{kalunga_ssvep_2013} is able to provide timely intervention for a better control in a multimodal setup. 
+Experimentally, the concept is evaluated for navigation in a virtual environment and in the control of a robotic arm exoskeleton designed to compensate for muscular dystrophy in the shoulder and elbow muscles occurring in our subjects of interest~\citep{kalunga_hybrid_2014}.
+
+On the machine learning aspect,
+after establishing the key role played by covariance matrices of multivariate time series in statistical learning, the study gives an evaluation of different covariance matrix estimation techniques in terms of quality of estimation and impact on the classification accuracy yield by the learning algorithm.  
+%the study proposes the use of Riemannian geometry of symmetric positive definite (SPD) matrices, namely the covariance matrices of EEG signals. These matrices belong to a subset of the Euclidean space, a curved space described by Riemannian geometry. 
+%To achieve a learning algorithm that is less prone to overfitting and robust to environmental changes and noise, the current research proposes the use of a machine learning algorithm that, 
+%instead of going through estimates of covariance matrices to compute spatial filters, operates directly on the space of covariance matrices (\textit{i.e.} a Riemannian manifold) and classify them based on their distances from class centres. 
+Instead of going through estimates of covariance matrices to compute spatial filters, the current study proposes a new approach that operates directly on the space on covariance matrices (\textit{i.e.} a \emph{Riemannian manifold}) and classifies them based on their distances from class centres to achieve a learning that is less prone to overfitting and robust to environmental changes and noise. 
+It demonstrates that in this framework, it is indeed important to use Riemannian metrics as they describe the geometry of covariance matrices better than the Euclidean ones \citep{kalunga_euclidean_2015}. 
+Metrics that are invariant to affine transformations are used to measure the distance between covariance matrices. 
+%This ensures a robustness to affine transformations covariance matrices may go through due to noise and changes in the recorded EEG. 
+
+An online implementation of the described approach is subsequently proposed for classification in SSVEP based BCI. 
+The algorithm is capable of identifying epochs where the user is focusing on SSVEP stimulus from epochs where the user is not, and eventually classify SSVEP epochs with state-of-the-art accuracy \citep{kalunga_online_2016}. 
+
+Finally the last part of the work presented in this PhD contributes to alleviating the problem of insufficient training sample in machine learning for BCI. 
+It contributes with a data augmentation technique where, given a small training sample, tools from Riemannian geometry are used to generate artificial data within the convex hull of the original sample, thus enlarging the training sample \citep{kalunga_data_2015}. 
+It also explores possibilities of transfer learning on covariance matrices such that training samples from previous BCI users are used to train a classifier for a new BCI user.  
+
+
+
+%This study will contribute to the effort made toward transfer learning in Brain Computer Interface. The needs for transfer learning in BCI are evident, yet it has not been significantly investigated. The study will also take a step toward using larger training set recorded from different users, thus guaranteeing a stable classification based on global invariant patterns, and less vulnerable to disturbances.Most importantly, the study will contribute toward the development of a \emph{plug and play} BCI where users (especially BCI inefficient ones) will not be required to go through lengthy training phases for the recording of well labelled samples.
+%Another benefit of the study lies in BCI users profiling. The study will investigate how users' brain responses differ when their are exposed to the same stimuli, and will propose a technique for categorising users according to their response (as seen in the extracted features from their brain signals). All together, these contributions will make BCI accessible and useful to a larger population,extending its applications by addressing the challenges found in passive BCI and hybrid BCI.
+ 
+%\section{Delimitation of Study}
+%
+%This study is primarily conducted for passive brain computer interfaces and hybrid brain computer interfaces. Active BCI (\textit{i.e.} BCI for control) will only be considered in the case of hybrid BCI, where brain signals are combined with motor skills to control a physical interface. The study is limited to the development of learning schemes (algorithms) and will not include studies on other BCI components.
+%Brain signals considered in this study are EEG, and MEG. 
+
+%\section{Research Methodology}
+%
+%The developed techniques will be implemented on matlab and tested offline and online on data recorded in our laboratories, and offline on signals recorded in other laboratories and made available on internet. 
+%
+%\section{Contribution of the Study}
+
+\section{Thesis Outline}
+
+The rest of this thesis is organised as follows:
+Chapter~\ref{chap:lit_survey_neuro} presents the advances in brain computer interfaces through a review of literature.
+It particularly discusses the state-of-the art in neuroimaging, describing the techniques used for brain signal measurement. 
+The chapter also presents the main neurological phenomena captured in brain signals for BCI purposes.
+
+In Chapter~\ref{chap:lit_survey_sig_process}, signal processing methods as well as machine leaning approaches that have been commonly  used in various BCI types are presented. 
+The newly introduced Riemannian  approach to machine learning is presented in section~\ref{sec:riemann_approach}. 
+In section~\ref{sec:new_trends_BCI}, new trends in BCI applications are presented. 
+Major advances in BCI being laid down, the BCI approach proposed in this thesis is presented in section~\ref{sec:proposed-approach}. Key choices and positions taken along the research are explained.
+
+%Chapter~\ref{chap:research-approach} gives the research direction taken in the thesis. It explains key choices and positions taken along the research.
+%It presents and reviews hybrid BCI systems in section~\ref{sec:hBCI-systems}, and applications of Riemmanian geometry to machine learning in section~\ref{sec:riemann_approach}.
+
+Chapter~\ref{chap:hBCI} presents the first contribution of this PhD, \textit{i.e.} the hybrid BCI, its motivation and design. 
+%the proposed hybrid brain computer interface, its motivation and design. 
+It presents the methods and techniques used in its multiple modalities. 
+The motor modality is described in section~\ref{sec:touchless-interface}, and the BCI modality in section~\ref{sec:ssvep-bci}. 
+Full description of experimental protocol for recording of EEG data used in subsequent chapters are given here. 
+The experimental results are presented in section~\ref{sec:hBCI-results}.
+
+Chapter~\ref{chap:riem-geom-bci} presents the second contribution, the Riemannian framework used for EEG representation and learning.
+It analyses methods of covariance matrix estimation in section~\ref{sec:covmat-estimation}.
+The Riemannian classification framework is presented in sections~\ref{sec:classification-covmat} and~\ref{sec:online-classification}.
+An experimental validation of the proposed approach is given in section~\ref{sec:experimental-validation}.
+
+Chapter~\ref{chap:perspectives-riem} discusses perspectives of Riemannian approaches in BCI machine learning.
+It presents a data augmentation technique in section~\ref{sec:data-aug}, and a transfer learning technique in section~\ref{sec:transfer-learn}. 
+They both use Riemannian tools to address the problem of data insufficiency in BCI.
+Chapter~\ref{chap:conclusion} concludes the work with a summary of contributions and future perspectives.
+%%% ----------------------------------------------------------------------

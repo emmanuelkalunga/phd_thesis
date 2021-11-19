@@ -1,0 +1,42 @@
+% ------------------------------------------------------------------------
+% -*-TeX-*- -*-Hard-*- Smart Wrapping
+% ------------------------------------------------------------------------
+%%% Literature Survey --------------------------------------------------
+
+%\addtolength{\topmargin}{-.875in}
+%\addtolength{\textheight}{.875in}
+%\footskip
+%\nonumchapter{Literature Survey}
+\chapter{Conclusion}
+\label{chap:conclusion}
+\epigraph{Better is the end of a thing than the beginning thereof}{--- \textup{Ecclesiastes 7:8}}
+%-------------------------------------------------------------------------
+This work presented the current state-of-the art in brain-computer interfaces, and identified the challenges thereof.
+It focused on improving BCI performances and adaptivity and address problems related to the adaptability of BCIs to users' muscular abilities, to the robustness of EEG representation and learning, and to the insufficiency of samples in the training data.
+%- User physical specificity
+To address the adaptability to physical needs and muscular abilities of the user, a new methodology for designing hybrid systems was proposed. 
+It uses a brain interface and motor interface specifically design to fit the user's needs and abilities. 
+The main goal of these hybrid system is to assist people with motor disabilities or muscular diseases, by proposing a system that adapts to their individual needs, and makes use of their residual skills.
+The BCI is integrated in the system as a secondary modality, which is used to trigger specific behaviour or predefined actions.
+The proposed approach is implemented using a 3D touchless interface and a SSVEP-based BCI.
+This implementation gathers the two interfaces in a multimodal system which benefits from both the brain and motor signals. 
+It is validated on a 3D  navigation task in virtual environment and on the ESTA chair for the control of a robotic arm exoskeleton. 
+%- Robust EEG representation and learning
+To ensure robust EEG representation and learning, this work explores the Riemmanien geometry of covariance matrices. 
+It studies the necessary tools required for analysis of covariance matrices as elements of a Riemannian space.
+Methods of covariance estimation are studied to ensure the quality and positive definiteness of the obtained covariance matrices. 
+The notion of distance and mean being central to classification algorithms, metrics used for measure of distance (or divergence) and mean of covariance matrices are studied. 
+The work shows that Riemannian metrics and their mean significantly improves the classification performances.
+Using the studied tools, an online algorithm for SSVEP classification was proposed, and was evaluated successfully. 
+It provides, for the first time, an online approach to classification of covariance matrices of EEG in particular, and SPD matrices in general, using Riemannian geometry. 
+%- Sufficient training sample
+Tools of Riemannian geometry offer many perspectives in BCI machine learning.
+This work proposes two other areas where they can be successfully applied, namely data augmentation and transfer learning.
+These two techniques address the problem of insufficient samples in the training data. 
+By generating artificial training samples that are constrained to the manifold of SDP matrices defined by the original data, the proposed data augmentation technique can provide larger and more representative training data, and solve the problem of class imbalance in EEG classification particularly in ERP BCI.
+The proposed transfer learning approached enlarge the training set of a test subject by appropriately using data from other subjects. 
+It increases the performance of classfiers, particularly when the test subject has a very small training set. 
+
+Seeing the benefit and perspective brought by Riemannian geometry from simple classification algorithms such as MDM, it is encouraging to apply them to other methods that are currently designed with linear Euclidean algebra. 
+They can foreseeably be applied to adapt dictionary learning to Riemannian geometry, and with further investigation to methods such as artificial neural networks.        
+%- Future work

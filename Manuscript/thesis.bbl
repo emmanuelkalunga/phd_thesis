@@ -1,0 +1,1773 @@
+\begin{thebibliography}{}
+
+\bibitem[Abdulkader et~al., 2015]{abdulkader_brain_2015}
+Abdulkader, S.~N., Atia, A., and Mostafa, M.-S.~M. (2015).
+\newblock Brain computer interfacing: {Applications} and challenges.
+\newblock {\em Egyptian Informatics Journal}, 16(2):213--230.
+
+\bibitem[Acqualagna and Blankertz, 2013]{acqualagna_gaze-independent_2013}
+Acqualagna, L. and Blankertz, B. (2013).
+\newblock Gaze-independent {BCI}-spelling using rapid serial visual
+  presentation ({RSVP}).
+\newblock {\em Clinical Neurophysiology}, 124(5):901--908.
+
+\bibitem[Acqualagna et~al., 2010]{acqualagna_novel_2010}
+Acqualagna, L., Treder, M.~S., Schreuder, M., and Blankertz, B. (2010).
+\newblock A novel brain-computer interface based on the rapid serial visual
+  presentation paradigm.
+\newblock In {\em 2010 {Annual} {International} {Conference} of the {IEEE}
+  {Engineering} in {Medicine} and {Biology}}, pages 2686--2689.
+
+\bibitem[Agueh and Carlier, 2011]{agueh_barycenters_2011}
+Agueh, M. and Carlier, G. (2011).
+\newblock Barycenters in the {Wasserstein} space.
+\newblock {\em SIAM Journal on Mathematical Analysis}, 43(2):904--924.
+
+\bibitem[Allison et~al., 2010]{allison_toward_2010}
+Allison, B.~Z., Brunner, C., Kaiser, V., Muller-Putz, G.~R., {C Neuper}, and
+  Pfurtscheller, G. (2010).
+\newblock Toward a hybrid brain computer interface based on imagined movement
+  and visual attention.
+\newblock {\em Journal of Neural Engineering}, 7(2):026007.
+
+\bibitem[Allison and Neuper, 2010a]{allison_could_2010}
+Allison, B.~Z. and Neuper, C. (2010a).
+\newblock Could {Anyone} {Use} a {BCI}?
+\newblock In Tan, D.~S. and Nijholt, A., editors, {\em Brain-{Computer}
+  {Interfaces}}, Human-{Computer} {Interaction} {Series}, pages 35--54.
+  Springer London.
+
+\bibitem[Allison and Neuper, 2010b]{allison_could_2010-1}
+Allison, B.~Z. and Neuper, C. (2010b).
+\newblock Could {Anyone} {Use} a {BCI}?
+\newblock In Tan, D.~S. and Nijholt, A., editors, {\em Brain-{Computer}
+  {Interfaces}}, Human-{Computer} {Interaction} {Series}, pages 35--54.
+  Springer London.
+\newblock DOI: 10.1007/978-1-84996-272-8\_3.
+
+\bibitem[Aloise et~al., 2012]{aloise_covert_2012}
+Aloise, F., Aricò, P., Schettini, F., Riccio, A., Salinari, S., Mattia, D.,
+  Babiloni, F., and Cincotti, F. (2012).
+\newblock A covert attention {P}300-based brain–computer interface:
+  {Geospell}.
+\newblock {\em Ergonomics}, 55(5):538--551.
+
+\bibitem[Amari, 2010]{amari_information_2010}
+Amari, S.-I. (2010).
+\newblock Information geometry in optimization, machine learning and
+  statistical inference.
+\newblock {\em Frontiers of Electrical and Electronic Engineering in China},
+  5(3):241--260.
+
+\bibitem[Ando et~al., 2004]{ando2004geometric}
+Ando, T., Li, C.-K., and Mathias, R. (2004).
+\newblock Geometric means.
+\newblock {\em Linear algebra and its applications}, 385:305--334.
+
+\bibitem[Ang et~al., 2008]{ang_filter_2008}
+Ang, K.~K., Chin, Z.~Y., Zhang, H., and Guan, C. (2008).
+\newblock Filter {Bank} {Common} {Spatial} {Pattern} ({FBCSP}) in
+  {Brain}-{Computer} {Interface}.
+\newblock {\em Neural Networks, 2008. IJCNN 2008. (IEEE World Congress on
+  Computational Intelligence). IEEE International Joint Conference on}, pages
+  2390--2397.
+
+\bibitem[Ang et~al., 2012]{ang_filter_2012}
+Ang, K. K.~K., Chin, Z. Y.~Y., Wang, C., Guan, C., and Zhang, H. (2012).
+\newblock Filter {Bank} {Common} {Spatial} {Pattern} {Algorithm} on {BCI}
+  {Competition} {IV} {Datasets} 2a and 2b.
+\newblock {\em Frontiers in neuroscience}, 6.
+
+\bibitem[Arsigny et~al., 2007]{arsigny_geometric_2007}
+Arsigny, V., Fillard, P., Pennec, X., and Ayache, N. (2007).
+\newblock Geometric means in a novel vector space structure on symmetric
+  positive-definite matrices.
+\newblock {\em SIAM Journal on Matrix Analysis and Applications},
+  29(1):328--347.
+
+\bibitem[Badcock et~al., 2013]{badcock_validation_2013}
+Badcock, N.~A., Mousikou, P., Mahajan, Y., de~Lissa, P., Thie, J., and
+  McArthur, G. (2013).
+\newblock Validation of the {Emotiv} {EPOC}® {EEG} gaming system for measuring
+  research quality auditory {ERPs}.
+\newblock {\em PeerJ}, 1:e38.
+
+\bibitem[Bakardjian et~al., 2010]{bakardjian_optimization_2010}
+Bakardjian, H., Tanaka, T., and Cichocki, A. (2010).
+\newblock Optimization of {SSVEP} brain responses with application to
+  eight-command brain–computer interface.
+\newblock {\em Neuroscience letters}, 469(1):34--38.
+
+\bibitem[Baklouti et~al., 2008]{baklouti_force_2008}
+Baklouti, M., Guyot, P.~A., Monacelli, E., and Couvet, S. (2008).
+\newblock Force controlled upper-limb powered exoskeleton for rehabilitation.
+\newblock In {\em Intelligent {Robots} and {Systems} ({IROS})}, page 4202.
+
+\bibitem[Barachant et~al., 2013a]{barachant_riemannian_2013}
+Barachant, A., Andreev, A., Congedo, M., and {others} (2013a).
+\newblock The {Riemannian} {Potato}: an automatic and adaptive artifact
+  detection method for online experiments using {Riemannian} geometry.
+\newblock In {\em Proceedings of {TOBI} {Workshop} {IV}}, pages 19--20.
+
+\bibitem[Barachant and Bonnet, 2011]{barachant_channel_2011}
+Barachant, A. and Bonnet, S. (2011).
+\newblock Channel selection procedure using {Riemannian} distance for {BCI}
+  applications.
+\newblock In {\em Neural {Engineering} ({NER}), 2011 5th {International}
+  {IEEE}/{EMBS} {Conference} on}, pages 348--351. IEEE.
+
+\bibitem[Barachant et~al., 2010a]{barachant_common_2010}
+Barachant, A., Bonnet, S., Congedo, M., and Jutten, C. (2010a).
+\newblock Common spatial pattern revisited by {Riemannian} geometry.
+\newblock In {\em Multimedia {Signal} {Processing} ({MMSP}), 2010 {IEEE}
+  {International} {Workshop} on}, pages 472--476. IEEE.
+
+\bibitem[Barachant et~al., 2010b]{barachant_riemannian_2010}
+Barachant, A., Bonnet, S., Congedo, M., and Jutten, C. (2010b).
+\newblock Riemannian geometry applied to {BCI} classification.
+\newblock In {\em Latent {Variable} {Analysis} and {Signal} {Separation}},
+  pages 629--636. Springer.
+
+\bibitem[Barachant et~al., 2012a]{barachant_multiclass_2012}
+Barachant, A., Bonnet, S., Congedo, M., and Jutten, C. (2012a).
+\newblock Multiclass brain–computer interface classification by {Riemannian}
+  geometry.
+\newblock {\em Biomedical Engineering, IEEE Transactions on}, 59(4):920--928.
+
+\bibitem[Barachant et~al., 2013b]{barachant_classification_2013}
+Barachant, A., Bonnet, S., Congedo, M., and Jutten, C. (2013b).
+\newblock Classification of covariance matrices using a {Riemannian}-based
+  kernel for {BCI} applications.
+\newblock {\em Neurocomputing}, 112:172--178.
+
+\bibitem[Barachant et~al., 2012b]{barachant_bci_2012}
+Barachant, A., Bonnet, S., Congedo, M., Jutten, C., and {others} (2012b).
+\newblock {BCI} {Signal} {Classification} using a {Riemannian}-based kernel.
+\newblock In {\em Proceeding of the 20th {European} {Symposium} on {Artificial}
+  {Neural} {Networks}, {Computational} {Intelligence} and {Machine}
+  {Learning}}, pages 97--102.
+
+\bibitem[Barachant and Congedo, 2014]{barachant_plug&play_2014}
+Barachant, A. and Congedo, M. (2014).
+\newblock A {Plug}\&{Play} {P}300 {BCI} {Using} {Information} {Geometry}.
+\newblock {\em arXiv preprint arXiv:1409.0107}.
+
+\bibitem[Barachant et~al., 2015]{barachant_p300-speller:_2015}
+Barachant, A., Cycon, R., and Gouy-Pailler, C. (2015).
+\newblock P300-speller: {Géométrie} {Riemannienne} pour la détection
+  multi-sujets de potentiels d'erreur.
+\newblock In {\em {GRETSI} 2015}.
+
+\bibitem[Barbaresco, 2011]{barbaresco_geometric_2011}
+Barbaresco, F. (2011).
+\newblock Geometric radar processing based on {Fréchet} distance: information
+  geometry versus optimal transport theory.
+\newblock In {\em 2011 12th {International} {Radar} {Symposium} ({IRS})}.
+
+\bibitem[Bashashati et~al., 2007]{bashashati_survey_2007}
+Bashashati, A., Fatourechi, M., Ward, R., and Birch, G. (2007).
+\newblock A survey of signal processing algorithms in brain-computer interfaces
+  based on electrical brain signals.
+\newblock {\em journal of neural engineering}, 4(2).
+
+\bibitem[Bayliss and Ballard, 1998]{bayliss_single_1998}
+Bayliss, J.~D. and Ballard, D.~H. (1998).
+\newblock Single {Trial} {P}300 {Recognition} in a {Virtual} {Environment}.
+\newblock {\em University of Rochester}, pages 22--25.
+
+\bibitem[B{\'e}dard et~al., 2006]{bedard_model_2006}
+B{\'e}dard, C., Kr{\"o}ger, H., and Destexhe, A. (2006).
+\newblock Model of low-pass filtering of local field potentials in brain
+  tissue.
+\newblock {\em Nonlinear Soft Matter Physics}, 73:051911.
+
+\bibitem[Berger, 1929]{berger_uber_1929}
+Berger, P. D.~H. (1929).
+\newblock Über das {Elektrenkephalogramm} des {Menschen}.
+\newblock {\em Archiv für Psychiatrie und Nervenkrankheiten}, 87(1):527--570.
+
+\bibitem[Bhattacharyya et~al., 2010]{bhattacharyya_performance_2010}
+Bhattacharyya, S., Khasnobish, A., Chatterjee, S., Konar, A., and Tibarewala,
+  D. (2010).
+\newblock Performance analysis of {LDA}, {QDA} and {KNN} algorithms in
+  left-right limb movement classification from {EEG} data.
+\newblock {\em Systems in Medicine and Biology (ICSMB), 2010 International
+  Conference on}, pages 126--131.
+
+\bibitem[Bin et~al., 2011]{bin_high-speed_2011}
+Bin, G., Gao, X., Wang, Y., Li, Y., Hong, B., and Gao, S. (2011).
+\newblock A high-speed {BCI} based on code modulation {VEP}.
+\newblock {\em Journal of Neural Engineering}, 8(2):025015.
+
+\bibitem[Bin et~al., 2009]{bin_online_2009}
+Bin, G., Gao, X., Yan, Z., Hong, B., and Gao, S. (2009).
+\newblock An online multi-channel {SSVEP}-based brain-computer interface using
+  a canonical correlation analysis method.
+\newblock {\em Journal of Neural Engineering}, 6(4).
+
+\bibitem[Blankertz et~al., 2011]{blankertz_single-trial_2011}
+Blankertz, B., Lemm, S., Treder, M., Haufe, S., and Müller, K.-R. (2011).
+\newblock Single-trial analysis and classification of {ERP} components: a
+  tutorial.
+\newblock {\em NeuroImage}, 56(2):814--825.
+
+\bibitem[Blankertz et~al., 2008]{blankertz_optimizing_2008}
+Blankertz, B., Tomioka, R., Lemm, S., Kawanabe, M., and Muller, K.~R. (2008).
+\newblock Optimizing {Spatial} filters for {Robust} {EEG} {Single}-{Trial}
+  {Analysis}.
+\newblock {\em Signal Processing Magazine, IEEE}, 25(1):41--56.
+
+\bibitem[Bregman, 1967]{bregman_relaxation_1967}
+Bregman, L.~M. (1967).
+\newblock The relaxation method of finding the common point of convex sets and
+  its application to the solution of problems in convex programming.
+\newblock {\em USSR computational mathematics and mathematical physics},
+  7(3):200--217.
+
+\bibitem[Brunner et~al., 2007]{brunner_spatial_2007}
+Brunner, C., Naeem, M., Leeb, R., Graimann, B., and Pfurtscheller, G. (2007).
+\newblock Spatial filtering and selection of optimized components in four class
+  motor imagery {EEG} data using independent components analysis.
+\newblock {\em Pattern Recognition Letters}, 28(8):957--964.
+
+\bibitem[Bundy et~al., 2016]{bundy_decoding_2016}
+Bundy, D.~T., Pahwa, M., Szrama, N., and Leuthardt, E.~C. (2016).
+\newblock Decoding three-dimensional reaching movements using
+  electrocorticographic signals in humans.
+\newblock {\em Journal of Neural Engineering}, 13(2):026021.
+
+\bibitem[Capilla et~al., 2011]{capilla_steady-state_2011}
+Capilla, A., Pazo-Alvarez, P., Darriba, A., Campo, P., and Gross, J. (2011).
+\newblock Steady-{State} {Visual} {Evoked} {Potentials} {Can} {Be} {Explained}
+  by {Temporal} {Superposition} of {Transient} {Event}-{Related} {Responses}.
+\newblock {\em PLoS ONE}, 6(1):e14543.
+
+\bibitem[Caton, 1875]{caton_electrical_1875}
+Caton, R. (1875).
+\newblock Electrical {Currents} of the {Brain}.
+\newblock {\em The Journal of Nervous and Mental Disease}, 2(4):610.
+
+\bibitem[Cecotti et~al., 2011]{cecotti_robust_2011}
+Cecotti, H., Rivet, B., Congedo, M., Jutten, C., Bertrand, O., Maby, E., and
+  Mattout, J. (2011).
+\newblock A robust sensor-selection method for {P}300 brain–computer
+  interfaces.
+\newblock {\em Journal of neural engineering}, 8(1):016001.
+
+\bibitem[Chang and Lin, 2011]{chang_libsvm:_2011}
+Chang, C.~C. and Lin, C.~J. (2011).
+\newblock {LIBSVM}: {A} {Library} for {Support} {Vector} {Machines}.
+\newblock {\em ACM Trans. Intell. Syst. Technol.}, 2(3).
+
+\bibitem[Chebbi and Moakher, 2012]{chebbi_means_2012}
+Chebbi, Z. and Moakher, M. (2012).
+\newblock Means of {Hermitian} positive-definite matrices based on the
+  log-determinant α-divergence function.
+\newblock {\em Linear Algebra and its Applications}, 436(7):1872--1889.
+
+\bibitem[Chen et~al., 2015]{chen_survey_2015}
+Chen, L., Jin, J., Zhang, Y., Wang, X., and Cichocki, A. (2015).
+\newblock A survey of the dummy face and human face stimuli used in {BCI}
+  paradigm.
+\newblock {\em Journal of Neuroscience Methods}, 239:18--27.
+
+\bibitem[Cheng et~al., 2002]{cheng_design_2002}
+Cheng, M., Gao, X., Gao, S., and Xu, D. (2002).
+\newblock Design and implementation of a brain-computer interface with high
+  transfer rates.
+\newblock {\em Biomedical Engineering, IEEE Transactions on},
+  49(10):1181--1186.
+
+\bibitem[Cherian et~al., 2011]{cherian_efficient_2011}
+Cherian, A., Sra, S., Banerjee, A., and Papanikolopoulos, N. (2011).
+\newblock Efficient similarity search for covariance matrices via the
+  {Jensen}-{Bregman} {LogDet} divergence.
+\newblock In {\em 2011 {International} {Conference} on {Computer} {Vision}},
+  pages 2399--2406. IEEE.
+
+\bibitem[Cincotti et~al., 2003]{cincotti_comparison_2003}
+Cincotti, F., Scipione, A., Timperi, A., Mattia, D., Marciani, A., Millan, J.,
+  Salinari, S., Bianchi, L., and Bablioni, F. (2003).
+\newblock Comparison of different feature classifiers for brain computer
+  interfaces.
+\newblock {\em Neural Engineering, 2003. Conference Proceedings. First
+  International IEEE EMBS Conference on}, pages 645--647.
+
+\bibitem[Ciresan et~al., 2012]{ciresan_multi-column_2012}
+Ciresan, D., Meier, U., and Schmidhuber, J. (2012).
+\newblock Multi-column deep neural networks for image classification.
+\newblock In {\em Computer {Vision} and {Pattern} {Recognition} ({CVPR}), 2012
+  {IEEE} {Conference} on}, pages 3642--3649. IEEE.
+
+\bibitem[Congedo, 2013]{congedo2013eeg}
+Congedo, M. (2013).
+\newblock {\em EEG source analysis}.
+\newblock HDR, Universit{\'e} de Grenoble.
+
+\bibitem[Congedo et~al., 2013]{congedo_new_2013}
+Congedo, M., Barachant, A., and Andreev, A. (2013).
+\newblock A {New} {Generation} of {Brain}-{Computer} {Interface} {Based} on
+  {Riemannian} {Geometry}.
+\newblock {\em arXiv preprint arXiv:1310.8115}.
+
+\bibitem[Courchesne et~al., 1975]{courchesne_stimulus_1975}
+Courchesne, E., Hillyard, S.~A., and Galambos, R. (1975).
+\newblock Stimulus novelty, task relevance and the visual evoked potential in
+  man.
+\newblock {\em Electroencephalography and Clinical Neurophysiology},
+  39(2):131--143.
+
+\bibitem[Cutrell and Tan, 2008]{cutrell_bci_2008}
+Cutrell, E. and Tan, D. (2008).
+\newblock {BCI} for passive input in {HCI}.
+\newblock In {\em Proceedings of {CHI}}, volume~8, pages 1--3. Citeseer.
+
+\bibitem[Daly and Wolpaw, 2008]{daly_brain-computer_2008}
+Daly, J.~J. and Wolpaw, J.~R. (2008).
+\newblock Brain-{Computer} interfaces in neurological rehabilitation.
+\newblock {\em The Lancet Neurology}, 7(11):1032--1043.
+
+\bibitem[Delorme, 2015]{delorme_eeg_2015}
+Delorme, A. (2015).
+\newblock {EEG} data available for public download.
+
+\bibitem[Dhillon and Tropp, 2007]{dhillon_matrix_2007}
+Dhillon, I.~S. and Tropp, J.~A. (2007).
+\newblock Matrix nearness problems with {Bregman} divergences.
+\newblock {\em SIAM Journal on Matrix Analysis and Applications},
+  29(4):1120--1146.
+
+\bibitem[Dieleman et~al., 2015]{dieleman_rotation-invariant_2015}
+Dieleman, S., Willett, K.~W., and Dambre, J. (2015).
+\newblock Rotation-invariant convolutional neural networks for galaxy
+  morphology prediction.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  450(2):1441--1459.
+
+\bibitem[Dingyin et~al., 2011]{dingyin_feature_2011}
+Dingyin, H., Wei, L., and Xi, C. (2011).
+\newblock Feature extraction of motor imagery {EEG} signals based on wavelet
+  packet decomposition.
+\newblock {\em Complex Medical Engineering (CME), 2011 IEEE/ICME International
+  Conference on}, pages 694--697.
+
+\bibitem[Donchin, 1969]{donchin_discriminant_1969}
+Donchin, E. (1969).
+\newblock Discriminant analysis in average evoked response studies: the study
+  of single trial data.
+\newblock {\em Electroencephalography and clinical neurophysiology},
+  27(3):311--314.
+
+\bibitem[Donchin, 1981]{donchin_surprise!_1981}
+Donchin, E. (1981).
+\newblock Surprise!… {Surprise}?
+\newblock {\em Psychophysiology}, 18(5):493--513.
+
+\bibitem[Donchin et~al., 2000]{donchin_mental_2000}
+Donchin, E., Spencer, K.~M., and Wijesinghe, R. (2000).
+\newblock The mental prosthesis: assessing the speed of a {P}300-based
+  brain-computer interface.
+\newblock {\em Rehabilitation Engineering, IEEE Transactions on [see also IEEE
+  Trans. on Neural Systems and Rehabilitation]}, 8(2).
+
+\bibitem[Dornhege et~al., 2004a]{dornhege_increase_2004}
+Dornhege, G., Blankertz, B., Curio, G., and {Klaus-Robert Muller} (2004a).
+\newblock Increase information transfer rates in {BCI} by {CSP} extension to
+  multi-class.
+\newblock {\em Advances in Neural Information Processing Systems}, pages
+  733--740.
+
+\bibitem[Dornhege et~al., 2004b]{dornhege_boosting_2004}
+Dornhege, G., Blankertz, B., Curio, G., and Muller, K.-R. (2004b).
+\newblock Boosting bit rates in noninvasive {EEG} single-trial classifications
+  by feature combination and multiclass paradigms.
+\newblock {\em Biomedical Engineering, IEEE Transactions on}, 51(6):993--1002.
+
+\bibitem[Duda et~al., 2001]{duda_pattern_2001}
+Duda, R., Hart, P., and Stork, D. (2001).
+\newblock {\em Pattern classification}.
+\newblock Wiley, 2 edition.
+
+\bibitem[Elshout, 2009]{elshout_review_2009}
+Elshout, J.~A. (2009).
+\newblock Review of brain-computer interfaces based on the {P}300 evoked
+  potential.
+\newblock {\em Tech. Rep. PR-TN 2009/00066, Koninklijke Philips Electronics
+  (2009)}.
+
+\bibitem[Faradji et~al., 2009]{faradji_brain-computer_2009}
+Faradji, F., Ward, R., and Birch, G. (2009).
+\newblock A brain-computer interface based on mental tasks with a zero false
+  activation rate.
+\newblock {\em Neural Engineering, 2009. NER '09. 4th International IEEE/EMBS
+  Conference on}, pages 355--358.
+
+\bibitem[Farwell and Donchin, 1988]{farwell_talking_1988}
+Farwell, L.~A. and Donchin, E. (1988).
+\newblock Talking off the top of your head: {Toward} a mental prosthesis
+  utilizing event-related brain potentials.
+\newblock {\em Electroencephalography and Clinical Neurophysiology},
+  70:510--523.
+
+\bibitem[Ferrez and del R.~Millan, 2008]{ferrez_error-related_2008}
+Ferrez, P. and del R.~Millan, J. (2008).
+\newblock Error-{Related} {EEG} {Potentials} {Generated} {During} {Simulated}
+  {Brain}-{Computer} {Interaction}.
+\newblock {\em Biomedical Engineering, IEEE Transactions on}, 55(3):923--929.
+
+\bibitem[Ferrez and Millan, 2008]{ferrez_simultaneous_2008}
+Ferrez, P.~W. and Millan, J. d.~R. (2008).
+\newblock Simultaneous {Real}-{Time} {Detection} of {Motor} {Imagery} and
+  {Error}-{Related} {Potentials} for {Improved} {BCI} {Accuracy}.
+\newblock {\em Proceedings of the 4th International Brain-Computer Interface
+  Workshop and Training Course}, pages 197--202.
+
+\bibitem[Finke et~al., 2011]{finke_hybrid_2011}
+Finke, A., Knoblauch, A., Koesling, H., and Ritter, H. (2011).
+\newblock A hybrid brain interface for a humanoid robot assistant.
+\newblock {\em Engineering in Medicine and Biology Society,EMBC, 2011 Annual
+  International Conference of the IEEE}, pages 7421--7424.
+
+\bibitem[Fisher et~al., 2005]{fisher_photic-_2005}
+Fisher, R.~S., Harding, G., Erba, G., Barkley, G.~L., Wilkins, A., and
+  {Epilepsy Foundation of America Working Group} (2005).
+\newblock Photic- and pattern-induced seizures: a review for the {Epilepsy}
+  {Foundation} of {America} {Working} {Group}.
+\newblock {\em Epilepsia}, 46(9):1426--1441.
+
+\bibitem[Fitzgerald and Picton, 1967]{fitzgerald_temporal_1967}
+Fitzgerald, P.~G. and Picton, T.~W. (1967).
+\newblock Temporal and sequential probability in evoked potential studies.
+\newblock {\em Canadian Journal of Psychology}, 35(2):188--200.
+
+\bibitem[Fletcher et~al., 2004]{fletcher_principal_2004}
+Fletcher, P.~T., Lu, C., Pizer, S.~M., and Joshi, S. (2004).
+\newblock Principal geodesic analysis for the study of nonlinear statistics of
+  shape.
+\newblock {\em Medical Imaging, IEEE Transactions on}, 23(8):995--1005.
+
+\bibitem[Foldes et~al., 2015]{foldes_meg-based_2015}
+Foldes, S.~T., Weber, D.~J., and Collinger, J.~L. (2015).
+\newblock {MEG}-based neurofeedback for hand rehabilitation.
+\newblock {\em Journal of NeuroEngineering and Rehabilitation}, 12:85.
+
+\bibitem[Foley, 1972]{foley_considerations_1972}
+Foley, D.~H. (1972).
+\newblock Considerations of sample and feature size.
+\newblock {\em Information Theory, IEEE Transactions on}, 18(5):618--626.
+
+\bibitem[Friedman, 1989]{friedman_regularized_1989}
+Friedman, J.~H. (1989).
+\newblock Regularized {Discriminant} {Analysis}.
+\newblock {\em Journal of the American Statistical Association},
+  84(405):165--175.
+
+\bibitem[Fukunaga, 1990]{fukunaga_introduction_1990}
+Fukunaga, K. (1990).
+\newblock {\em Introduction to statistical pattern recognition}.
+\newblock Academic press.
+
+\bibitem[Gaur et~al., 2015]{gaur_empirical_2015}
+Gaur, P., Pachori, R.~B., Wang, H., and Prasad, G. (2015).
+\newblock An empirical mode decomposition based filtering method for
+  classification of motor-imagery {EEG} signals for enhancing brain-computer
+  interface.
+\newblock In {\em Neural {Networks} ({IJCNN}), 2015 {International} {Joint}
+  {Conference} on}, pages 1--7. IEEE.
+
+\bibitem[Gazzaniga et~al., 2013]{gazzaniga_cognitive_2013}
+Gazzaniga, M.~S., Ivry, R.~B., and Mangun, G.~R. (2013).
+\newblock {\em Cognitive {Neuroscience}: {The} {Biology} of the {Mind}, 4th
+  {Edition}}.
+\newblock W. W. Norton \& Company, 4th edition edition.
+
+\bibitem[Gehring et~al., 1993]{gehring_neural_1993}
+Gehring, W.~J., Goss, B., Coles, M.~G., Meyer, D.~E., and Donchin, E. (1993).
+\newblock A neural system for error detection and compensation.
+\newblock {\em Psychological science}, 4(6):385--390.
+
+\bibitem[George and L{\'e}cuyer, 2010]{george_overview_2010}
+George, L. and L{\'e}cuyer, A. (2010).
+\newblock An overview of research on" passive" brain-computer interfaces for
+  implicit human-computer interaction.
+\newblock In {\em International {Conference} on {Applied} {Bionics} and
+  {Biomechanics} {ICABB} 2010-{Workshop} {W}1" {Brain}-{Computer} {Interfacing}
+  and {Virtual} {Reality}"}.
+
+\bibitem[Gervain et~al., 2011]{gervain_near-infrared_2011}
+Gervain, J., Mehler, J., Werker, J.~F., Nelson, C.~A., Csibra, G., Lloyd-Fox,
+  S., Shukla, M., and Aslin, R.~N. (2011).
+\newblock Near-infrared spectroscopy: {A} report from the {McDonnell} infant
+  methodology consortium.
+\newblock {\em Developmental Cognitive Neuroscience}, 1(1):22--46.
+
+\bibitem[Girouard et~al., 2013]{girouard_designing_2013}
+Girouard, A., Solovey, E.~T., and Jacob, R.~J. (2013).
+\newblock Designing a passive brain computer interface using real time
+  classification of functional near-infrared spectroscopy.
+\newblock {\em International Journal of Autonomous and Adaptive Communications
+  Systems}, 6(1):26--44.
+
+\bibitem[Goh and Vidal, 2008a]{goh_clustering_2008}
+Goh, A. and Vidal, R. (2008a).
+\newblock Clustering and dimensionality reduction on {Riemannian} manifolds.
+\newblock In {\em Computer {Vision} and {Pattern} {Recognition}, 2008. {CVPR}
+  2008. {IEEE} {Conference} on}, pages 1--7. IEEE.
+
+\bibitem[Goh and Vidal, 2008b]{goh_unsupervised_2008}
+Goh, A. and Vidal, R. (2008b).
+\newblock Unsupervised {Riemannian} clustering of probability density
+  functions.
+\newblock In {\em Machine {Learning} and {Knowledge} {Discovery} in
+  {Databases}}, pages 377--392. Springer.
+
+\bibitem[Golub et~al., 2014]{golub_motor_2014}
+Golub, M.~D., Yu, B.~M., Schwartz, A.~B., and Chase, S.~M. (2014).
+\newblock Motor cortical control of movement speed with implications for
+  brain-machine interface control.
+\newblock {\em Journal of Neurophysiology}, 112(2):411--429.
+
+\bibitem[Gosseries et~al., 2008]{gosseries_[functional_2008}
+Gosseries, O., Demertzi, A., Noirhomme, Q., Tshibanda, J., Boly, M., Op~de
+  Beeck, M., Hustinx, R., Maquet, P., Salmon, E., Moonen, G., Luxen, A.,
+  Laureys, S., and De~Tiège, X. (2008).
+\newblock [{Functional} neuroimaging ({fMRI}, {PET} and {MEG}): what do we
+  measure?].
+\newblock {\em Revue Médicale De Liège}, 63(5-6):231--237.
+
+\bibitem[Gramfort et~al., 2014]{gramfort_mne_2014}
+Gramfort, A., Luessi, M., Larson, E., Engemann, D.~A., Strohmeier, D.,
+  Brodbeck, C., Parkkonen, L., and Hämäläinen, M.~S. (2014).
+\newblock {MNE} software for processing {MEG} and {EEG} data.
+\newblock {\em NeuroImage}, 86:446--460.
+
+\bibitem[Grandvalet, 2000]{grandvalet_anisotropic_2000}
+Grandvalet, Y. (2000).
+\newblock Anisotropic {Noise} {Injection} for {Input} {Variables} {Relevance}
+  {Determination}.
+\newblock In {\em {IEEE} {TRANSACTIONS} {ON} {NEURAL} {NETWORKS}}, pages
+  463--468. Springer.
+
+\bibitem[Grosse-Wentrup and Buss, 2008]{grosse-wentrup_multiclass_2008}
+Grosse-Wentrup, M. and Buss, M. (2008).
+\newblock Multiclass common spatial patterns and information theoretic feature
+  extraction.
+\newblock {\em Biomedical Engineering, IEEE Transactions on}, 55(8):1991--2000.
+
+\bibitem[Grübler et~al., 2014]{grubler_psychosocial_2014}
+Grübler, G., Al-Khodairy, A., Leeb, R., Pisotta, I., Riccio, A., Rohm, M., and
+  Hildt, E. (2014).
+\newblock Psychosocial and {Ethical} {Aspects} in {Non}-{Invasive}
+  {EEG}-{Based} {BCI} {Research}—{A} {Survey} {Among} {BCI} {Users} and {BCI}
+  {Professionals}.
+\newblock {\em Neuroethics}, 7(1):29--41.
+
+\bibitem[{g.Tec}, 2012]{gtec_intendix_2017}
+{g.Tec} (2012).
+\newblock intendix.com.
+
+\bibitem[G{\"u}{\c{c}}l{\"u}t{\"u}rk et~al., 2010]{gucluturk_online_2010}
+G{\"u}{\c{c}}l{\"u}t{\"u}rk, Y., G{\"u}{\c{c}}l{\"u}, U., and Samraj, A.
+  (2010).
+\newblock An online single trial analysis of the {P}300 event related potential
+  for the disabled.
+\newblock {\em Electrical and Electronics Engineers in Israel (IEEEI), 2010
+  IEEE 26th Convention of}, pages 338--341.
+
+\bibitem[Hammer et~al., 2012]{hammer_psychological_2012}
+Hammer, E.~M., Halder, S., Blankertz, B., Sannelli, C., Dickhaus, T., Kleih,
+  S., Müller, K.-R., and Kübler, A. (2012).
+\newblock Psychological predictors of {SMR}-{BCI} performance.
+\newblock {\em Biological Psychology}, 89(1):80--86.
+
+\bibitem[Hao et~al., 2014]{hao_visual_2014}
+Hao, Y., Budd, J., Jackson, M.~M., Sati, M., and Soni, S. (2014).
+\newblock A visual feedback design based on a brain-computer interface to
+  assist users regulate their emotional state.
+\newblock In {\em {CHI}'14 {Extended} {Abstracts} on {Human} {Factors} in
+  {Computing} {Systems}}, pages 2491--2496. ACM.
+
+\bibitem[Hardoon et~al., 2004]{hardoon_canonical_2004}
+Hardoon, D.~R., Szedmak, S.~R., and Shawe-Taylor, J.~R. (2004).
+\newblock Canonical {Correlation} {Analysis}: {An} {Overview} with
+  {Application} to {Learning} {Methods}.
+\newblock {\em Neural Comput.}, 16(12):2639--2664.
+
+\bibitem[Haselsteiner and Pfurtscheller, 2000]{haselsteiner_using_2000}
+Haselsteiner, E. and Pfurtscheller, G. (2000).
+\newblock Using time-dependent neural networks for {EEG} classification.
+\newblock {\em Rehabilitation Engineering, IEEE Transactions on},
+  8(4):457--463.
+
+\bibitem[Henson et~al., 2011]{henson_parametric_2011}
+Henson, R.~N., Wakeman, D.~G., Litvak, V., and Friston, K.~J. (2011).
+\newblock A parametric empirical {Bayesian} framework for the {EEG}/{MEG}
+  inverse problem: generative models for multi-subject and multi-modal
+  integration.
+\newblock {\em Frontiers in Human Neuroscience}, 5:76.
+
+\bibitem[Herculano-Houzel, 2009]{herculano-houzel_human_2009}
+Herculano-Houzel, S. (2009).
+\newblock The {Human} {Brain} in {Numbers}: {A} {Linearly} {Scaled}-up
+  {Primate} {Brain}.
+\newblock {\em Frontiers in Human Neuroscience}, 3.
+
+\bibitem[Herculano-Houzel, 2012]{herculano-houzel_remarkable_2013}
+Herculano-Houzel, S. (2012).
+\newblock The {Remarkable}, {Yet} {Not} {Extraordinary}, {Human} {Brain} as a
+  {Scaled}-{Up} {Primate} {Brain} and {Its} {Associated} {Cost}.
+\newblock {\em Proceedings of the National Academy of Sciences}, 109(Supplement
+  1):10661--10668.
+
+\bibitem[Herrmann, 2001]{herrmann_human_2001}
+Herrmann, C.~S. (2001).
+\newblock Human {EEG} responses to 1-100 {Hz} flicker: resonance phenomena in
+  visual cortex and their potential correlation to cognitive phenomena.
+\newblock {\em Experimental Brain Research}, 137(3-4):346--353.
+
+\bibitem[Hill et~al., 2006]{hill_classifying_2006}
+Hill, N., Lal, T., Schröder, M., Hinterberger, T., Wilhelm, B., Nijboer, F.,
+  Mochty, U., Widman, G., Elger, C., Schölkopf, B., Kübler, A., and
+  Birbaumer, N. (2006).
+\newblock Classifying {EEG} and {ECoG} {Signals} without {Subject} {Training}
+  for {Fast} {BCI} {Implementation}: {Comparison} of {Non}-{Paralysed} and
+  {Completely} {Paralysed} {Subjects}.
+\newblock {\em IEEE Transactions on Neural Systems and Rehabilitation
+  Engineering}, 14(2):183--186.
+
+\bibitem[Hochberg et~al., 2012]{hochberg_reach_2012}
+Hochberg, L.~R., Bacher, D., Jarosiewicz, B., Masse, N.~Y., Simeral, J.~D.,
+  Vogel, J., Haddadin, S., Liu, J., Cash, S.~S., van~der Smagt, P., and
+  Donoghue, J.~P. (2012).
+\newblock Reach and grasp by people with tetraplegia using a neurally
+  controlled robotic arm.
+\newblock {\em Nature}, 485(7398):372--375.
+
+\bibitem[Hochberg et~al., 2006]{hochberg_neuronal_2006}
+Hochberg, L.~R., Serruya, M.~D., Friehs, G.~M., Mukand, J.~A., Saleh, M.,
+  Caplan, A.~H., Branner, A., Chen, D., Penn, R.~D., and Donoghue, J.~P.
+  (2006).
+\newblock Neuronal ensemble control of prosthetic devices by a human with
+  tetraplegia.
+\newblock {\em Nature}, 442(7099):164--171.
+
+\bibitem[Hoffmann et~al., 2005]{hoffmann_boosting_2005}
+Hoffmann, U., Garcia, G., Vesin, J.-M., Diserens, K., and Ebrahimi, T. (2005).
+\newblock A {Boosting} {Approach} to {P}300 {Detection} with {Application} to
+  {Brain}-{Computer} {Interfaces}.
+\newblock {\em Neural Engineering, 2005. Conference Proceedings. 2nd
+  International IEEE EMBS Conference on}, pages 97--100.
+
+\bibitem[Hoffmann et~al., 2008]{hoffmann_efficient_2008}
+Hoffmann, U., Vesin, J.-M., Ebrahimi, T., and Diserens, K. (2008).
+\newblock An efficient {P}300-based brain–computer interface for disabled
+  subjects.
+\newblock {\em Journal of Neuroscience Methods}, 167(1):115--125.
+
+\bibitem[Homer et~al., 2013]{homer_implants_2013}
+Homer, M.~L., Nurmikko, A.~V., Donoghue, J.~P., and Hochberg, L.~R. (2013).
+\newblock Implants and {Decoding} for {Intracortical} {Brain} {Computer}
+  {Interfaces}.
+\newblock {\em Annual review of biomedical engineering}, 15:383--405.
+
+\bibitem[Huettel et~al., 2004]{huettel_functional_2004}
+Huettel, S.~A., Song, A.~W., and McCarthy, G. (2004).
+\newblock {\em Functional magnetic resonance imaging}, volume~1.
+\newblock Sinauer Associates Sunderland.
+
+\bibitem[Huggins et~al., 1999]{huggins_detection_1999}
+Huggins, J.~E., Levine, S.~P., BeMent, S.~L., Kushwaha, R.~K., Schuh, L.~A.,
+  Passaro, E.~A., Rohde, M.~M., Ross, D.~A., Elisevich, K.~V., and Smith, B.~J.
+  (1999).
+\newblock Detection of event-related potentials for development of a direct
+  brain interface.
+\newblock {\em Journal of clinical neurophysiology}, 16(5):448.
+
+\bibitem[Huster et~al., 2014]{huster_braincomputer_2014}
+Huster, R.~J., Mokom, Z.~N., Enriquez-Geppert, S., and Herrmann, C.~S. (2014).
+\newblock Brain–computer interfaces for {EEG} neurofeedback: {Peculiarities}
+  and solutions.
+\newblock {\em International journal of psychophysiology}, 91(1):36--45.
+
+\bibitem[Ishita et~al., 2007]{ishita_development_2007}
+Ishita, H., Sakai, M., Watanabe, J., Chen, W., and {Darning Wei} (2007).
+\newblock Development of {P}300 {Detection} {Algorithm} for {Brain} {Computer}
+  {Interface} in {Single} {Trial}.
+\newblock {\em Computer and Information Technology, 2007. CIT 2007. 7th IEEE
+  International Conference on}, pages 1100--1105.
+
+\bibitem[Jayasumana et~al., 2013]{jayasumana_kernel_2013}
+Jayasumana, S., Hartley, R., Salzmann, M., Li, H., and Harandi, M. (2013).
+\newblock Kernel methods on the {Riemannian} manifold of symmetric positive
+  definite matrices.
+\newblock In {\em Computer {Vision} and {Pattern} {Recognition} ({CVPR}), 2013
+  {IEEE} {Conference} on}, pages 73--80. IEEE.
+
+\bibitem[Jeannerod, 1995]{jeannerod_mental_1995}
+Jeannerod, M. (1995).
+\newblock Mental imagery in the motor context.
+\newblock {\em Neuropsychologia}, 33(11):1419--1432.
+
+\bibitem[Jeunet et~al., 2016]{jeunet_why_2016}
+Jeunet, C., Jahanpour, E., and Lotte, F. (2016).
+\newblock Why {Standard} {Brain}-{Computer} {Interface} ({BCI}) {Training}
+  {Protocols} {Should} be {Changed}: {An} {Experimental} {Study}.
+\newblock {\em Journal of Neural Engineering}.
+
+\bibitem[Jia et~al., 2011]{jia_frequency_2011}
+Jia, C., Gao, X., Hong, B., and Gao, S. (2011).
+\newblock Frequency and {Phase} {Mixed} {Coding} in {SSVEP}-{Based}
+  {Brain}–{Computer} {Interface}.
+\newblock {\em Biomedical Engineering, IEEE Transactions on}, 58(1):200--206.
+
+\bibitem[Jost, 2011]{jost_riemannian_2011}
+Jost, J. (2011).
+\newblock {\em Riemannian geometry and geometric analysis}, volume 62011.
+\newblock Springer.
+
+\bibitem[Jrad et~al., 2011]{jrad_sw-svm:_2011}
+Jrad, N., Congedo, M., Phlypo, R., Rousseau, S., Flamary, R., Yger, F., and
+  Rakotomamonjy, A. (2011).
+\newblock sw-{SVM}: sensor weighting support vector machines for {EEG}-based
+  brain–computer interfaces.
+\newblock {\em Journal of Neural Engineering}, 8:056004+.
+
+\bibitem[Kalunga et~al., 2015a]{kalunga_data_2015}
+Kalunga, E., Chevallier, S., and Barthélemy, Q. (2015a).
+\newblock Data augmentation in {Riemannian} space for {Brain}-{Computer}
+  {Interfaces}.
+\newblock In {\em {ICML} {Workshop} on {Statistics}, {Machine} {Learning} and
+  {Neuroscience} ({Stamlins} 2015)}.
+
+\bibitem[Kalunga et~al., 2013]{kalunga_ssvep_2013}
+Kalunga, E., Djouani, K., Hamam, Y., Chevallier, S., and Monacelli, E. (2013).
+\newblock {SSVEP} enhancement based on {Canonical} {Correlation} {Analysis} to
+  improve {BCI} performances.
+\newblock In {\em {AFRICON}, 2013}, pages 1--5.
+
+\bibitem[Kalunga et~al., 2015b]{kalunga_using_2015}
+Kalunga, E.~K., Chevallier, S., and Barthélemy, Q. (2015b).
+\newblock Using {Riemannian} geometry for {SSVEP}-based {Brain} {Computer}
+  {Interface}.
+\newblock Technical report, Tshwane University of Technology \& Université de
+  Versailles Saint-Quentin.
+
+\bibitem[Kalunga et~al., 2015c]{kalunga_euclidean_2015}
+Kalunga, E.~K., Chevallier, S., Barthélemy, Q., Djouani, K., Hamam, Y., and
+  Monacelli, E. (2015c).
+\newblock From {Euclidean} to {Riemannian} {Means}: {Information} {Geometry}
+  for {SSVEP} {Classification}.
+\newblock In Nielsen, F. and Barbaresco, F., editors, {\em Geometric {Science}
+  of {Information}}, number 9389 in Lecture {Notes} in {Computer} {Science},
+  pages 595--604. Springer International Publishing.
+\newblock DOI: 10.1007/978-3-319-25040-3\_64.
+
+\bibitem[Kalunga et~al., 2016]{kalunga_online_2016}
+Kalunga, E.~K., Chevallier, S., Barthélemy, Q., Djouani, K., Monacelli, E.,
+  and Hamam, Y. (2016).
+\newblock Online {SSVEP}-based {BCI} using {Riemannian} geometry.
+\newblock {\em Neurocomputing}.
+
+\bibitem[Kalunga et~al., 2014]{kalunga_hybrid_2014}
+Kalunga, E.~K., Chevallier, S., Rabreau, O., and Monacelli, E. (2014).
+\newblock Hybrid interface: {Integrating} {BCI} in multimodal human-machine
+  interfaces.
+\newblock In {\em 2014 {IEEE}/{ASME} {International} {Conference} on {Advanced}
+  {Intelligent} {Mechatronics} ({AIM})}, pages 530--535.
+
+\bibitem[Kanal and Chandrasekaran, 1971]{kanal_dimensionality_1971}
+Kanal, L. and Chandrasekaran, B. (1971).
+\newblock On dimensionality and sample size in statistical pattern
+  classification.
+\newblock {\em Pattern recognition}, 3(3):225--234.
+
+\bibitem[Kang et~al., 2009]{kang_composite_2009}
+Kang, H., Nam, Y., and Choi, S. (2009).
+\newblock Composite common spatial pattern for subject-to-subject transfer.
+\newblock {\em Signal Processing Letters, IEEE}, 16(8):683--686.
+
+\bibitem[Karcher, 2014]{karcher_riemannian_2014}
+Karcher, H. (2014).
+\newblock Riemannian center of mass and so called karcher mean.
+\newblock {\em arXiv preprint arXiv:1407.2087}.
+
+\bibitem[K{\"a}thner et~al., 2013]{kathner_portable_2013}
+K{\"a}thner, I., Ruf, C.~A., Pasqualotto, E., Braun, C., Birbaumer, N., and
+  Halder, S. (2013).
+\newblock A portable auditory {P}300 brain–computer interface with
+  directional cues.
+\newblock {\em Clinical Neurophysiology}, 124(2):327--338.
+
+\bibitem[Kaufmann et~al., 2013a]{kaufmann_comparison_2013}
+Kaufmann, T., Holz, E.~M., and Kübler, A. (2013a).
+\newblock Comparison of tactile, auditory, and visual modality for
+  brain-computer interface use: a case study with a patient in the locked-in
+  state.
+\newblock {\em Frontiers in Neuroscience}, 7:129.
+
+\bibitem[Kaufmann et~al., 2011]{kaufmann_flashing_2011}
+Kaufmann, T., Schulz, S.~M., Grünzinger, C., and Kübler, A. (2011).
+\newblock Flashing characters with famous faces improves {ERP}-based
+  brain–computer interface performance.
+\newblock {\em Journal of neural engineering}, 8(5):056016.
+
+\bibitem[Kaufmann et~al., 2013b]{kaufmann_face_2013}
+Kaufmann, T., Schulz, S.~M., Köblitz, A., Renner, G., Wessig, C., and Kübler,
+  A. (2013b).
+\newblock Face stimuli effectively prevent brain–computer interface
+  inefficiency in patients with neurodegenerative disease.
+\newblock {\em Clinical Neurophysiology}, 124(5):893--900.
+
+\bibitem[Kennedy and Bakay, 1998]{kennedy_restoration_1998}
+Kennedy, P.~R. and Bakay, R.~A. (1998).
+\newblock Restoration of neural output from a paralyzed patient by a direct
+  brain connection.
+\newblock {\em Neuroreport}, 9(8):1707--1711.
+
+\bibitem[Kennedy et~al., 2000]{kennedy_direct_2000}
+Kennedy, P.~R., Bakay, R.~A., Moore, M.~M., Adams, K., and Goldwaithe, J.
+  (2000).
+\newblock Direct control of a computer from the human central nervous system.
+\newblock {\em Rehabilitation Engineering, IEEE Transactions on},
+  8(2):198--202.
+
+\bibitem[Kennedy et~al., 2004]{kennedy_computer_2004}
+Kennedy, P.~R., Kirby, M.~T., Moore, M.~M., King, B., and Mallory, A. (2004).
+\newblock Computer control using human intracortical local field potentials.
+\newblock {\em Neural Systems and Rehabilitation Engineering, IEEE Transactions
+  on}, 12(3):339--344.
+
+\bibitem[Khorshidtalab and Salami, 2011]{khorshidtalab_eeg_2011}
+Khorshidtalab, A. and Salami, M. J.~E. (2011).
+\newblock {EEG} signal classification for real-time brain-computer interface
+  applications: {A} review.
+\newblock {\em Mechatronics (ICOM), 2011 4th International Conference On},
+  pages 1--7.
+
+\bibitem[Kimura et~al., 2013]{kimura_ssvep-based_2013}
+Kimura, Y., Tanaka, T., Higashi, H., and Morikawa, N. (2013).
+\newblock {SSVEP}-based brain–computer interfaces using {FSK}-modulated
+  visual stimuli.
+\newblock {\em IEEE Transactions on Biomedical Engineering}, 60(10):2831--2838.
+
+\bibitem[Koles et~al., 1990]{koles_spatial_1990}
+Koles, Z.~J., Lazar, M.~S., and Zhou, S.~Z. (1990).
+\newblock Spatial patterns underlying population differences in the background
+  {EEG}.
+\newblock {\em Brain topography}, 2(4):275--284.
+
+\bibitem[Kottaimalai et~al., 2013]{kottaimalai_eeg_2013}
+Kottaimalai, R., Rajasekaran, M.~P., Selvam, V., and Kannapiran, B. (2013).
+\newblock {EEG} signal classification using principal component analysis with
+  neural network in brain computer interface applications.
+\newblock In {\em Emerging {Trends} in {Computing}, {Communication} and
+  {Nanotechnology} ({ICE}-{CCN}), 2013 {International} {Conference} on}, pages
+  227--231. IEEE.
+
+\bibitem[Krizhevsky et~al., 2012]{krizhevsky_imagenet_2012}
+Krizhevsky, A., Sutskever, I., and Hinton, G.~E. (2012).
+\newblock {ImageNet} {Classification} with {Deep} {Convolutional} {Neural}
+  {Networks}.
+\newblock In Pereira, F., Burges, C. J.~C., Bottou, L., and Weinberger, K.~Q.,
+  editors, {\em Advances in {Neural} {Information} {Processing} {Systems} 25},
+  pages 1097--1105.
+
+\bibitem[Krusienski et~al., 2011]{krusienski_critical_2011}
+Krusienski, D.~J., Grosse-Wentrup, M., Galán, F., Coyle, D., Miller, K.~J.,
+  {Elliott Forney}, and Anderson, C.~W. (2011).
+\newblock Critical issues in state-of-the-art brain–computer interface signal
+  processing.
+\newblock {\em Journal of Neural Engineering}, 8(2):025002.
+
+\bibitem[Krusienski et~al., 2008]{krusienski_toward_2008}
+Krusienski, D.~J., Sellers, E.~W., McFarland, D.~J., Vaughan, T.~M., and
+  Wolpaw, J.~R. (2008).
+\newblock Toward {Enhanced} {P}300 {Speller} {Performance}.
+\newblock {\em Journal of Neuroscience Methods}, 167(1):15--21.
+
+\bibitem[K{\"u}bler et~al., 2005]{kubler_severity_2005}
+K{\"u}bler, A., Winter, S., Ludolph, A.~C., Hautzinger, M., and Birbaumer, N.
+  (2005).
+\newblock Severity of depressive symptoms and quality of life in patients with
+  amyotrophic lateral sclerosis.
+\newblock {\em Neurorehabilitation and neural repair}, 19(3):182--193.
+
+\bibitem[Kumar et~al., 2010]{kumar_design_2010}
+Kumar, A., Mohanty, M., and Routray, A. (2010).
+\newblock Design of {Support} {Vector} {Machines} with {Time} {Frequency}
+  {Kernels} for classification of {EEG} signals.
+\newblock {\em Students' Technology Symposium (TechSym), 2010 IEEE}, pages
+  330--333.
+
+\bibitem[Ledoit and Wolf, 2004]{ledoit_well-conditioned_2004}
+Ledoit, O. and Wolf, M. (2004).
+\newblock A well-conditioned estimator for large-dimensional covariance
+  matrices.
+\newblock {\em Journal of multivariate analysis}, 88(2):365--411.
+
+\bibitem[Lee and Choi, 2003]{lee_pca+hmm+svm_2003}
+Lee, H. and Choi, S. (2003).
+\newblock {PCA}+{HMM}+{SVM} for {EEG} pattern classification.
+\newblock {\em Signal Processing and Its Applications, 2003. Proceedings.
+  Seventh International Symposium on}, 1:541--544.
+
+\bibitem[Leeb et~al., 2010]{leeb_multimodal_2010}
+Leeb, R., Sagha, H., Chavarriaga, R., and del R~Millan, J. (2010).
+\newblock Multimodal {Fusion} of {Muscle} and {Brain} {Signals} for a
+  {Hybrid}-{BCI}.
+\newblock {\em Engineering in Medicine and Biology Society (EMBC), 2010 Annual
+  International Conference of the IEEE}, pages 4343--4346.
+
+\bibitem[Lenhardt et~al., 2008]{lenhardt_adaptive_2008}
+Lenhardt, A., Kaper, M., and Ritter, H. (2008).
+\newblock An {Adaptive} {P}300-{Based} {Online} {Brain} {Computer} {Interface}.
+\newblock {\em Neural Systems and Rehabilitation Engineering, IEEE Transactions
+  on}, 16(2):121--130.
+
+\bibitem[Leuthardt et~al., 2004]{leuthardt_brain-computer_2004}
+Leuthardt, E.~C., Schalk, G., Wolpaw, J.~R., Ojemann, J.~G., and Moran, D.~W.
+  (2004).
+\newblock A brain-computer interface using electrocorticographic signals in
+  humans.
+\newblock {\em Journal of Neural Engineering}, 1(2):63--71.
+
+\bibitem[Li and Lu, 2009]{li_emotion_2009}
+Li, M. and Lu, B.-L. (2009).
+\newblock Emotion classification based on gamma-band eeg.
+\newblock In {\em Engineering in Medicine and Biology Society, 2009. EMBC 2009.
+  Annual International Conference of the IEEE}, pages 1223--1226. IEEE.
+
+\bibitem[Li et~al., 2012]{li_electroencephalogram_2012}
+Li, Y., Wong, K., and De~Bruin, H. (2012).
+\newblock Electroencephalogram signals classification for sleepstate decision:
+  {A} {Riemannian} geometry approach.
+\newblock {\em Signal Processing, IET}, 6(4):288--299.
+
+\bibitem[Li et~al., 2009]{li_eeg_2009}
+Li, Y., Wong, K.~M., and De~Bruin, H. (2009).
+\newblock {EEG} signal classification based on a {Riemannian} distance measure.
+\newblock In {\em Science and {Technology} for {Humanity} ({TIC}-{STH}), 2009
+  {IEEE} {Toronto} {International} {Conference}}, pages 268--273. IEEE.
+
+\bibitem[Liang et~al., 2010]{liang_closed-loop_2010}
+Liang, S.-F., Shaw, F.-Z., Young, C.-P., Chang, D.-W., and Liao, Y.-C. (2010).
+\newblock A closed-loop brain computer interface for real-time seizure
+  detection and control.
+\newblock In {\em 2010 {Annual} {International} {Conference} of the {IEEE}
+  {Engineering} in {Medicine} and {Biology}}, pages 4950--4953. IEEE.
+
+\bibitem[Lim and P{\'a}lfia, 2012]{lim_matrix_2012}
+Lim, Y. and P{\'a}lfia, M. (2012).
+\newblock Matrix power means and the {Karcher} mean.
+\newblock {\em Journal of Functional Analysis}, 262(4):1498--1514.
+
+\bibitem[Lin et~al., 2006]{lin_frequency_2006}
+Lin, Z., Zhang, C., Wu, W., and Gao, X. (2006).
+\newblock Frequency {Recognition} {Based} on {Canonical} {Correlation}
+  {Analysis} for {SSVEP}-{Based} {BCIs}.
+\newblock {\em Biomedical Engineering, IEEE Transactions on},
+  53(12):2610--2614.
+
+\bibitem[Liu et~al., 2011]{liu_novel_2011}
+Liu, Y.~H., Cheng, C.~A., and Huang, H.-P. (2011).
+\newblock Novel feature of the {EEG} based motor imagery {BCI} system: {Degree}
+  of imagery.
+\newblock {\em System Science and Engineering (ICSSE), 2011 International
+  Conference on}, pages 515--520.
+
+\bibitem[Looney et~al., 2012]{looney_--ear_2012}
+Looney, D., Kidmose, P., Park, C., Ungstrup, M., Rank, M.~L., Rosenkranz, K.,
+  and Mandic, D.~P. (2012).
+\newblock The in-the-ear recording concept: {User}-centered and wearable brain
+  monitoring.
+\newblock {\em Pulse, IEEE}, 3(6):32--42.
+
+\bibitem[Lopez-Gordo et~al., 2010]{lopez-gordo_high_2010}
+Lopez-Gordo, M., Pelayo, F., and Prieto, A. (2010).
+\newblock A high performance {SSVEP}-{BCI} without gazing.
+\newblock {\em Neural Networks (IJCNN), The 2010 International Joint Conference
+  on}, pages 1--5.
+
+\bibitem[Lotte, 2011]{lotte_generating_2011}
+Lotte, F. (2011).
+\newblock Generating artificial {EEG} signals to reduce {BCI} calibration time.
+\newblock In {\em 5th {International} {Brain}-{Computer} {Interface}
+  {Workshop}}, pages 176--179.
+
+\bibitem[Lotte et~al., 2015]{lotte_electroencephalography_2015}
+Lotte, F., Bougrain, L., and Clerc, M. (2015).
+\newblock Electroencephalography ({EEG})-{Based} {Brain}–{Computer}
+  {Interfaces}.
+\newblock {\em Wiley Encyclopedia of Electrical and Electronics Engineering}.
+
+\bibitem[Lotte et~al., 2007]{lotte_review_2007}
+Lotte, F., Congedo, M., L{\'e}cuyer, A., Lamarche, F., and Arnaldi, B. (2007).
+\newblock A review of classification algorithms for {EEG}-based brain-computer
+  interfaces.
+\newblock {\em Journal of Neural Engineering}, 4(2):R1.
+
+\bibitem[Lotte et~al., 2010]{lotte_exploring_2010}
+Lotte, F., Van~Langhenhove, A., Lamarche, F., Ernest, T., Renard, Y., Arnaldi,
+  B., and Lécuyer, A. (2010).
+\newblock Exploring large virtual environments by thoughts using a
+  brain-computer interface based on motor imagery and high-level commands.
+\newblock {\em Presence: teleoperators and virtual environments}, 19(1):54--70.
+
+\bibitem[Luck, 2014]{luck_introduction_2014}
+Luck, S.~J. (2014).
+\newblock {\em An introduction to the event-related potential technique}.
+\newblock MIT press.
+
+\bibitem[Mak et~al., 2011]{mak_optimizing_2011}
+Mak, J.~N., Arbel, Y., Minett, J.~W., McCane, L.~M., Yuksel, B., Ryan, D.,
+  Thompson, D., Bianchi, L., and Erdogmus, D. (2011).
+\newblock Optimizing the {P}300-based brain–computer interface: current
+  status, limitations and future directions.
+\newblock {\em Journal of neural engineering}, 8(2):025003.
+
+\bibitem[Martin et~al., 2012]{martin_fast_2012}
+Martin, H., Chevallier, S., and Monacelli, E. (2012).
+\newblock Fast calibration of hand movement-based interface for arm exoskeleton
+  control.
+\newblock In {\em European {Symposium} on {Artificial} {Neural} {Networks}
+  ({ESANN})}, pages 573--578.
+
+\bibitem[Matthews and Jezzard, 2004]{matthews_functional_2004}
+Matthews, P.~M. and Jezzard, P. (2004).
+\newblock Functional magnetic resonance imaging.
+\newblock {\em Journal of Neurology, Neurosurgery \& Psychiatry}, 75(1):6--12.
+
+\bibitem[Mattout et~al., 2013]{mattout_improving_2013}
+Mattout, J., Perrin, M., Bertrand, O., and Maby, E. (2013).
+\newblock Improving non-invasive {BCI} for possible clinical application:
+  {Example} of the “{P}300-speller”.
+\newblock {\em Annals of Physical and Rehabilitation Medicine}, 56:e374.
+
+\bibitem[Mellinger et~al., 2007]{mellinger_meg-based_2007}
+Mellinger, J., Schalk, G., Braun, C., Preissl, H., Rosenstiel, W., Birbaumer,
+  N., and Kübler, A. (2007).
+\newblock An {MEG}-based {Brain}-{Computer} {Interface} ({BCI}).
+\newblock {\em NeuroImage}, 36(3):581--593.
+
+\bibitem[melomind, 2016]{melomind_melomind_2016}
+melomind (2016).
+\newblock Melomind {\textbar}.
+
+\bibitem[Mensia, 2016]{mensia_mensia_2016}
+Mensia (2016).
+\newblock Mensia {Technologies}.
+
+\bibitem[Millan et~al., 2009]{millan_asynchronous_2009}
+Millan, J., Galan, F., Vanhooydonck, D., Lew, E., Philips, J., and Nuttin, M.
+  (2009).
+\newblock Asynchronous non-invasive brain-actuated control of an intelligent
+  wheelchair.
+\newblock {\em Engineering in Medicine and Biology Society, 2009. EMBC 2009.
+  Annual International Conference of the IEEE}, pages 3361--3364.
+
+\bibitem[Millan et~al., 2004]{millan_noninvasive_2004}
+Millan, J. D.~R., Renkens, F., Mourino, J., and {Wulfram Gerstner} (2004).
+\newblock Noninvasive brain-actuated control of a mobile robot by human {EEG}.
+\newblock {\em IEEE Transactions on Biomedical Engineering}, 51:1026--1033.
+
+\bibitem[Millan et~al., 2010]{millan_combining_2010}
+Millan, J. d.~R., Rupp, R., Mueller-Putz, G., Murray-Smith, R., Giugliemma, C.,
+  Tangermann, M., Vidaurre, C., Cincotti, F., Kubler, A., Leeb, R., Neuper, C.,
+  Mueller, K.~R., and Mattia, D. (2010).
+\newblock Combining {Brain}-{Computer} {Interfaces} and {Assistive}
+  {Technologies}: {State}-of-the-{Art} and {Challenges}.
+\newblock {\em Frontiers in Neuroscience}, 4(161).
+
+\bibitem[Millán and Carmena, 2010]{millan_invasive_2010}
+Millán, J. d.~R. and Carmena, J. (2010).
+\newblock Invasive or noninvasive: understanding brain-machine interface
+  technology.
+\newblock {\em IEEE Engineering in Medicine and Biology Magazine},
+  29(EPFL-ARTICLE-150426):16--22.
+
+\bibitem[Miltner et~al., 1997]{miltner_event-related_1997}
+Miltner, W. H.~R., Braun, C.~H., and Coles, M. G.~H. (1997).
+\newblock Event-{Related} {Brain} {Potentials} {Following} {Incorrect}
+  {Feedback} in a {Time}-{Estimation} {Task}: {Evidence} for a “{Generic}”
+  {Neural} {System} for {Error} {Detection}.
+\newblock {\em Journal of Cognitive Neuroscience}, 9(6):788--798.
+
+\bibitem[Moakher, 2005]{moakher_differential_2005}
+Moakher, M. (2005).
+\newblock A differential geometric approach to the geometric mean of symmetric
+  positive-definite matrices.
+\newblock {\em SIAM Journal on Matrix Analysis and Applications},
+  26(3):735--747.
+
+\bibitem[Morgan et~al., 1996]{morgan_selective_1996}
+Morgan, S.~T., Hansen, J.~C., and Hillyard, S.~A. (1996).
+\newblock Selective attention to stimulus location modulates the steady-state
+  visual evoked potential.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  93(10):4770--4774.
+
+\bibitem[M{\"u}ller et~al., 1999]{muller_processing_1999}
+M{\"u}ller, M.~M., Keil, A., Gruber, T., and Elbert, T. (1999).
+\newblock Processing of affective pictures modulates right-hemispheric gamma
+  band eeg activity.
+\newblock {\em Clinical Neurophysiology}, 110(11):1913--1920.
+
+\bibitem[Muller-Putz and Pfurtscheller, 2008]{muller-putz_control_2008}
+Muller-Putz, G.~R. and Pfurtscheller, G. (2008).
+\newblock Control of an {Electrical} {Prosthesis} {With} an {SSVEP}-{Based}
+  {BCI}.
+\newblock {\em IEEE Transactions on Biomedical Engineering}, 55(1):361--364.
+
+\bibitem[Musallam et~al., 2004]{musallam_cognitive_2004}
+Musallam, S., Corneil, B.~D., Greger, B., Scherberger, H., and Andersen, R.~A.
+  (2004).
+\newblock Cognitive {Control} {Signals} for {Neural} {Prosthetics}.
+\newblock {\em Science}, 305(5681):258--262.
+
+\bibitem[Müller et~al., 2006]{muller_feature-selective_2006-1}
+Müller, M.~M., Andersen, S., Trujillo, N.~J., Valdés-Sosa, P., Malinowski,
+  P., and Hillyard, S.~A. (2006).
+\newblock Feature-selective attention enhances color signals in early visual
+  areas of the human brain.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 103(38):14250--14254.
+
+\bibitem[Nakanishi et~al., 2014]{nakanishi_high-speed_2014}
+Nakanishi, M., Wang, Y., Wang, Y.-T., Mitsukura, Y., and Jung, T.-P. (2014).
+\newblock A high-speed brain speller using steady-state visual evoked
+  potentials.
+\newblock {\em International journal of neural systems}, 24(06):1450019.
+
+\bibitem[Naseer and Hong, 2013]{naseer_classification_2013}
+Naseer, N. and Hong, K.-S. (2013).
+\newblock Classification of functional near-infrared spectroscopy signals
+  corresponding to the right- and left-wrist motor imagery for development of a
+  brain–computer interface.
+\newblock {\em Neuroscience Letters}, 553:84--89.
+
+\bibitem[{Nicolas-Alonso} et~al., 2012]{nicolas-alonso_brain_2012}
+{Nicolas-Alonso}, Fernando, L., and Gomez-Gil, J. (2012).
+\newblock Brain {Computer} {Interfaces}, a {Review}.
+\newblock {\em Sensors}, 12(2):1211--1279.
+
+\bibitem[Nielsen and Bhatia, 2012]{nielsen_matrix_2012}
+Nielsen, F. and Bhatia, R. (2012).
+\newblock {\em Matrix {Information} {Geometry}}.
+\newblock Springer Publishing Company, Incorporated.
+
+\bibitem[Nielsen and Nock, 2009]{nielsen_sided_2009}
+Nielsen, F. and Nock, R. (2009).
+\newblock Sided and symmetrized {Bregman} centroids.
+\newblock {\em IEEE transactions on Information Theory}, 55(6):2882--2904.
+
+\bibitem[Nielsen et~al., 2014]{nielsen_clustering_2014}
+Nielsen, F., Nock, R., and Amari, S.-i. (2014).
+\newblock On clustering histograms with k-means by using mixed α-divergences.
+\newblock {\em Entropy}, 16(6):3273--3301.
+
+\bibitem[Nunez and Srinivasan, 2005]{nunez_electric_2005}
+Nunez, P.~L. and Srinivasan, R. (2005).
+\newblock {\em Electric {Fields} of the {Brain}: {The} {Neurophysics} of {EEG},
+  2nd {Edition}}.
+\newblock Oxford University Press, USA, 2 edition.
+
+\bibitem[Obermaier et~al., 2001]{obermaier_hidden_2001}
+Obermaier, B., Guger, C., Neuper, C., and Pfurtscheller, G. (2001).
+\newblock Hidden {Markov} models for online classification of single trial
+  {EEG} data.
+\newblock {\em Pattern Recognition Letters}, 22(12):1299--1309.
+
+\bibitem[Oralhan and Tokmakçi, 2016]{oralhan_effect_2016}
+Oralhan, Z. and Tokmakçi, M. (2016).
+\newblock The {Effect} of {Duty} {Cycle} and {Brightness} {Variation} of
+  {Visual} {Stimuli} on {SSVEP} in {Brain} {Computer} {Interface} {Systems}.
+\newblock {\em IETE Journal of Research}, pages 1--9.
+
+\bibitem[Ozmen and Ktu, 2011]{ozmen_discrimination_2011}
+Ozmen, N. and Ktu, L. (2011).
+\newblock Discrimination between mental and motor tasks of {EEG} signals using
+  different classification methods.
+\newblock {\em Innovations in Intelligent Systems and Applications (INISTA),
+  2011 International Symposium on}, pages 143--147.
+
+\bibitem[Paetau, 2002]{paetau_magnetoencephalography_2002}
+Paetau, R. (2002).
+\newblock Magnetoencephalography in pediatric neuroimaging.
+\newblock {\em Developmental Science}, 5(3):361--370.
+
+\bibitem[Pan et~al., 2011]{pan_enhancing_2011}
+Pan, J., Gao, X., Duan, F., Yan, Z., and Gao, S. (2011).
+\newblock Enhancing the classification accuracy of steady-state visual evoked
+  potential-based brain-computer interfaces using phase constrained canonical
+  correlation analysis.
+\newblock {\em Journal of neural engineering}, 8(3):036027.
+
+\bibitem[Pan and Yang, 2010]{pan_survey_2010}
+Pan, S.~J. and Yang, Q. (2010).
+\newblock A survey on transfer learning.
+\newblock {\em IEEE Transactions on knowledge and data engineering},
+  22(10):1345--1359.
+
+\bibitem[Panicker et~al., 2010]{panicker_adaptation_2010}
+Panicker, R.~C., Puthusserypady, S., and Sun, Y. (2010).
+\newblock Adaptation in {P}300 brain–computer interfaces: {A} two-classifier
+  cotraining approach.
+\newblock {\em Biomedical Engineering, IEEE Transactions on},
+  57(12):2927--2935.
+
+\bibitem[Pascal et~al., 2005]{pascal_theoretical_2005}
+Pascal, F., Forster, P., Ovarlez, J.~P., and Arzabal, P. (2005).
+\newblock Theoretical analysis of an improved covariance matrix estimator in
+  non-{Gaussian} noise.
+\newblock In {\em {IEEE} {International} {Conference} on {Acoustics}, {Speech},
+  and {Signal} {Processing} ({ICASSP}).}, volume~4.
+
+\bibitem[Pastor, 2003]{pastor_human_2003}
+Pastor, M.~A. (2003).
+\newblock Human cerebral activation during steady-state visual-evoked
+  responses.
+\newblock {\em The Journal of Neuroscience}, 23(37):11621--11627.
+
+\bibitem[Pedregosa et~al., 2011]{scikit-learn}
+Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
+  O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J.,
+  Passos, A., Cournapeau, D., Brucher, M., Perrot, M., and Duchesnay, E.
+  (2011).
+\newblock Scikit-learn: Machine learning in {P}ython.
+\newblock {\em Journal of Machine Learning Research}, 12:2825--2830.
+
+\bibitem[Pencina et~al., 2008]{pencina_evaluating_2008}
+Pencina, M.~J., D'Agostino, R.~B., and Vasan, R.~S. (2008).
+\newblock Evaluating the added predictive ability of a new marker: from area
+  under the {ROC} curve to reclassification and beyond.
+\newblock {\em Statistics in medicine}, 27(2):157--172.
+
+\bibitem[Pennec et~al., 2006]{pennec_riemannian_2006}
+Pennec, X., Fillard, P., and Ayache, N. (2006).
+\newblock A {Riemannian} {Framework} for {Tensor} {Computing}.
+\newblock {\em International Journal of Computer Vision}, 66(1):41--66.
+
+\bibitem[Penny et~al., 2000]{penny_eeg-based_2000}
+Penny, W., Roberts, S., Curran, E., and Stokes, M. (2000).
+\newblock {EEG}-based communication: a pattern recognition approach.
+\newblock {\em Rehabilitation Engineering, IEEE Transactions on},
+  8(2):214--215.
+
+\bibitem[Perrin et~al., 2012]{margaux_objective_2012}
+Perrin, M., Maby, E., Daligault, S., Bertrand, O., and Mattout, J. (2012).
+\newblock Objective and subjective evaluation of online error correction during
+  {P}300-based spelling.
+\newblock {\em Advances in Human-Computer Interaction}, 2012:4.
+
+\bibitem[Pfurtscheller, 1977]{pfurtscheller_graphical_1977}
+Pfurtscheller, G. (1977).
+\newblock Graphical display and statistical evaluation of event-related
+  desynchronization ({ERD}).
+\newblock {\em Electroencephalography and Clinical Neurophysiology},
+  43(5):757--760.
+
+\bibitem[Pfurtscheller and Aranibar, 1977]{pfurtscheller_event-related_1977}
+Pfurtscheller, G. and Aranibar, A. (1977).
+\newblock Event-related cortical desynchronization detected by power
+  measurements of scalp {EEG}.
+\newblock {\em Electroencephalography and Clinical Neurophysiology},
+  42(6):817--826.
+
+\bibitem[Pfurtscheller et~al., 2003]{pfurtscheller_spatiotemporal_2003}
+Pfurtscheller, G., Graimann, B., Huggins, J.~E., Levine, S.~P., and Schuh,
+  L.~A. (2003).
+\newblock Spatiotemporal patterns of beta desynchronization and gamma
+  synchronization in corticographic data during self-paced movement.
+\newblock {\em Clinical neurophysiology}, 114(7):1226--1236.
+
+\bibitem[Pfurtscheller and Lopes~da Silva,
+  1999]{pfurtscheller_event-related_1999}
+Pfurtscheller, G. and Lopes~da Silva, F.~H. (1999).
+\newblock Event-related {EEG}/{MEG} synchronization and desynchronization:
+  basic principles.
+\newblock {\em Clinical Neurophysiology}, 110(11):1842--1857.
+
+\bibitem[Pfurtscheller and Neuper, 1994]{pfurtscheller_event-related_1994}
+Pfurtscheller, G. and Neuper, C. (1994).
+\newblock Event-related synchronization of mu rhythm in the {EEG} over the
+  cortical hand area in man.
+\newblock {\em Neuroscience Letters}, 174(1):93--96.
+
+\bibitem[Pfurtscheller and Neuper, 2001]{pfurtscheller_motor_2001}
+Pfurtscheller, G. and Neuper, C. (2001).
+\newblock Motor imagery and direct brain-computer communication.
+\newblock {\em Proceedings of the IEEE}, 89(7):1123--1134.
+
+\bibitem[Pfurtscheller et~al., 2010]{pfurtscheller_self-paced_2010}
+Pfurtscheller, G., Solis-Escalante, T., Ortner, R., Linortner, P., and
+  Muller-Putz, G. (2010).
+\newblock Self-{Paced} {Operation} of an {SSVEP}-{Based} {Orthosis} {With} and
+  {Without} an {Imagery}-{Based} {Brain} {Switch}: {A} {Feasibility} {Study}
+  {Towards} a {Hybrid} {BCI}.
+\newblock {\em Neural Systems and Rehabilitation Engineering, IEEE Transactions
+  on}, 18(4):409--414.
+
+\bibitem[Pfurtscheller et~al., 1997]{pfurtscheller_existence_1997}
+Pfurtscheller, G., Stanck, A., and Edlinger, G. (1997).
+\newblock On the existence of different types of central beta rhythms below 30
+  {Hz}.
+\newblock {\em Electroencephalography and Clinical Neurophysiology},
+  102(4):316--325.
+
+\bibitem[Polich, 2007]{polich_updating_2007}
+Polich, J. (2007).
+\newblock Updating {P}300: an integrative theory of {P}3a and {P}3b.
+\newblock {\em Clinical Neurophysiology}, 118(10):2128--2148.
+
+\bibitem[Popescu et~al., 2007]{popescu_single_2007}
+Popescu, F., Fazli, S., Badower, Y., Blankertz, B., and Müller, K.-R. (2007).
+\newblock Single trial classification of motor imagination using 6 dry {EEG}
+  electrodes.
+\newblock {\em PloS one}, 2(7):e637.
+
+\bibitem[Power et~al., 2012]{power_automatic_2012}
+Power, S.~D., Kushki, A., and Chau, T. (2012).
+\newblock Automatic single-trial discrimination of mental arithmetic, mental
+  singing and the no-control state from prefrontal activity: toward a
+  three-state {NIRS}-{BCI}.
+\newblock {\em BMC Research Notes}, 5:141.
+
+\bibitem[Proverbio and Zani, 2003]{proverbio_electromagnetic_2003}
+Proverbio, A.~M. and Zani, A. (2003).
+\newblock Electromagnetic manifestations of mind and brain.
+\newblock {\em The cognitive electrophysiology of mind and brain}, 2:13--37.
+
+\bibitem[Purves, 2008]{purves_neuroscience_2008}
+Purves, D. (2008).
+\newblock {\em Neuroscience, {Fourth} {Edition}}.
+\newblock Sinauer Associates, Inc., 4th edition edition.
+
+\bibitem[Purves et~al., 2001]{purves_excitatory_2001}
+Purves, D., Augustine, G.~J., Fitzpatrick, D., Katz, L.~C., LaMantia, A.-S.,
+  McNamara, J.~O., and Williams, S.~M., editors (2001).
+\newblock {\em Neuroscience}, chapter Excitatory and {Inhibitory}
+  {Postsynaptic} {Potentials}.
+\newblock Sinauer Associates.
+
+\bibitem[Rakotomamonjy et~al., 2005]{rakotomamonjy_ensemble_2005}
+Rakotomamonjy, A., Guigue, V., Mallet, G., and Alvarado, V. (2005).
+\newblock Ensemble of {SVMs} for improving brain-computer interface {P}300
+  speller performances.
+\newblock {\em 15th International Conference on Artificial Neural Networks},
+  pages 45--50.
+
+\bibitem[Raudys and Jain, 1991]{raudys_small_1991}
+Raudys, S.~J. and Jain, A.~K. (1991).
+\newblock Small sample size effects in statistical pattern recognition:
+  recommendations for practitioners.
+\newblock {\em IEEE Transactions on Pattern Analysis \& Machine Intelligence},
+  13(3):252--264.
+
+\bibitem[Ritaccio et~al., 2012]{ritaccio_proceedings_2012}
+Ritaccio, A., Beauchamp, M., Bosman, C., Brunner, P., Chang, E., Crone, N.,
+  Gunduz, A., Gupta, D., Knight, R., Leuthardt, E., and {others} (2012).
+\newblock Proceedings of the {Third} {International} {Workshop} on {Advances}
+  in {Electrocorticography}.
+\newblock {\em Epilepsy \& Behavior}, 25(4):605--613.
+
+\bibitem[Ritter and Vaughan, 1969]{ritter_averaged_1969}
+Ritter, W. and Vaughan, H.~G. (1969).
+\newblock Averaged evoked responses in vigilance and discrimination: a
+  reassessment.
+\newblock {\em Science}, 164(3877):326--8.
+
+\bibitem[Rivet et~al., 2011]{rivet_theoretical_2011}
+Rivet, B., Cecotti, H., Souloumiac, A., Maby, E., and Mattout, J. (2011).
+\newblock Theoretical analysis of {xDAWN} algorithm: application to an
+  efficient sensor selection in a {P}300 {BCI}.
+\newblock In {\em Signal {Processing} {Conference}, 2011 19th {European}},
+  pages 1382--1386. IEEE.
+
+\bibitem[Rivet et~al., 2009]{rivet_xdawn_2009}
+Rivet, B., Souloumiac, A., Attina, V., and Gibert, G. (2009).
+\newblock {xDAWN} {Algorithm} to {Enhance} {Evoked} {Potentials}: {Application}
+  to {Brain}-{Computer} {Interface}.
+\newblock {\em Biomedical Engineering, IEEE Transactions on}, 56(8):2035--2043.
+
+\bibitem[Roland et~al., 1980]{roland_supplementary_1980}
+Roland, P., Larsen, B., Lassen, N., and Skinhoj, E. (1980).
+\newblock Supplementary motor area and other cortical areas in organization of
+  voluntary movements in man.
+\newblock {\em Neurophysiology}, 43(1):118--136.
+
+\bibitem[Samek et~al., 2013]{samek_robust_2013}
+Samek, W., Blythe, D., Müller, K.-R., and Kawanabe, M. (2013).
+\newblock Robust spatial filtering with beta divergence.
+\newblock In {\em Advances in {Neural} {Information} {Processing} {Systems}},
+  pages 1007--1015.
+
+\bibitem[Samek and Muller, 2014]{samek_information_2014}
+Samek, W. and Muller, K.-R. (2014).
+\newblock Information geometry meets {BCI} spatial filtering using divergences.
+\newblock In {\em Brain-{Computer} {Interface} ({BCI}), 2014 {International}
+  {Winter} {Workshop} on}, pages 1--4. IEEE.
+
+\bibitem[Santhanam et~al., 2006]{santhanam_high-performance_2006}
+Santhanam, G., Ryu, S.~I., Yu, B.~M., Afshar, A., and Shenoy, K.~V. (2006).
+\newblock A high-performance brain–computer interface.
+\newblock {\em Nature}, 442(7099):195--198.
+
+\bibitem[Schalk and Leuthardt, 2011]{schalk_brain-computer_2011}
+Schalk, G. and Leuthardt, E.~C. (2011).
+\newblock Brain-computer interfaces using electrocorticographic signals.
+\newblock {\em Biomedical Engineering, IEEE Reviews in}, 4:140--154.
+
+\bibitem[Scherer et~al., 2007]{scherer_self-initiation_2007}
+Scherer, R., Müller-Putz, G.~R., and Pfurtscheller, G. (2007).
+\newblock Self-initiation of {EEG}-based brain-computer communication using the
+  heart rate response.
+\newblock {\em Journal of Neural Engineering}, 4(4):L23.
+
+\bibitem[Schettini et~al., 2014]{schettini_self-calibration_2014}
+Schettini, F., Aloise, F., Aricò, P., Salinari, S., Mattia, D., and Cincotti,
+  F. (2014).
+\newblock Self-calibration algorithm in an asynchronous {P}300-based
+  brain–computer interface.
+\newblock {\em Journal of neural engineering}, 11(3):035004.
+
+\bibitem[Schlögl et~al., 2005]{schlogl_characterization_2005}
+Schlögl, A., Lee, F., Bischof, H., and Pfurtscheller, G. (2005).
+\newblock Characterization of four-class motor imagery {EEG} data for the
+  {BCI}-competition 2005.
+\newblock {\em Journal of Neural Engineering}, 2(4):14--22.
+
+\bibitem[Scholkopf and Smola, 2001]{scholkopf_learning_2001}
+Scholkopf, B. and Smola, A.~J. (2001).
+\newblock {\em Learning with kernels: support vector machines, regularization,
+  optimization, and beyond}.
+\newblock MIT press.
+
+\bibitem[Schoot, 1993]{schoot_penfields_1993}
+Schoot, G. (1993).
+\newblock Penfield's homunculus: a note on cerebral cartography.
+\newblock {\em Journal of Neurology, Neurosurgery, and Psychiatry},
+  56(4):329--333.
+
+\bibitem[Schäfer and Strimmer, 2005]{schafer_shrinkage_2005}
+Schäfer, J. and Strimmer, K. (2005).
+\newblock A shrinkage approach to large-scale covariance matrix estimation and
+  implications for functional genomics.
+\newblock {\em Statistical applications in genetics and molecular biology},
+  4(1).
+
+\bibitem[Sellers et~al., 2006]{sellers_p300_2006}
+Sellers, E.~W., Krusienski, D.~J., McFarland, D.~J., Vaughan, T.~M., and
+  Wolpaw, J.~R. (2006).
+\newblock A {P}300 event-related potential brain-computer interface ({BCI}):
+  {The} effects of matrix size and inter stimulus interval on performance.
+\newblock {\em Biological Psychology}, 73(3):242--252.
+
+\bibitem[Serruya et~al., 2002]{serruya_brain-machine_2002}
+Serruya, M.~D., Hatsopoulos, N.~G., Paninski, L., Fellows, M.~R., and Donoghue,
+  J.~P. (2002).
+\newblock Brain-machine interface: {Instant} neural control of a movement
+  signal.
+\newblock {\em Nature}, 416(6877):141--142.
+
+\bibitem[Silvoni et~al., 2011]{silvoni_brain-computer_2011}
+Silvoni, S., Ramos-Murguialday, A., Cavinato, M., Volpato, C., Cisotto, G.,
+  Turolla, A., Piccione, F., and Birbaumer, N. (2011).
+\newblock Brain-computer interface in stroke: a review of progress.
+\newblock {\em Clinical EEG and Neuroscience}, 42(4):245--252.
+
+\bibitem[Simard et~al., 2003]{simard_best_2003}
+Simard, P.~Y., Steinkraus, D., and Platt, J.~C. (2003).
+\newblock Best practices for convolutional neural networks applied to visual
+  document analysis.
+\newblock In {\em 2013 12th {International} {Conference} on {Document}
+  {Analysis} and {Recognition}}, volume~2, pages 958--958. IEEE Computer
+  Society.
+
+\bibitem[Singer, 1993]{singer_synchronization_1993}
+Singer, W. (1993).
+\newblock Synchronization of {Cortical} {Activity} and its {Putative} {Role} in
+  {Information} {Processing} and {Learning}.
+\newblock {\em Annual Review of Physiology}, 55(1):349--374.
+
+\bibitem[Sitaram et~al., 2007]{sitaram_fmri_2007}
+Sitaram, R., Caria, A., Veit, R., Gaber, T., Rota, G., Kuebler, A., and
+  Birbaumer, N. (2007).
+\newblock {fMRI} {Brain}-{Computer} {Interface}: {A} {Tool} for
+  {Neuroscientific} {Research} and {Treatment}.
+\newblock {\em Computational Intelligence and Neuroscience}, 2007.
+
+\bibitem[Sitaram et~al., 2008]{sitaram_fmri_2008}
+Sitaram, R., Weiskopf, N., Caria, A., Veit, R., Erb, M., and Birbaumer, N.
+  (2008).
+\newblock {fMRI} {Brain}-{Computer} {Interfaces}.
+\newblock {\em IEEE Signal Processing Magazine}, 25(1):95--106.
+
+\bibitem[Sp\"{u}ler et~al., 2012]{spuler_one_2012}
+Sp\"{u}ler, M., Rosenstiel, W., and Bogdan, M. (2012).
+\newblock One class {SVM} and {Canonical} {Correlation} {Analysis} increase
+  performance in a c-{VEP} based {Brain}-{Computer} {Interface} ({BCI}).
+\newblock In {\em Proceedings of 20th {European} {Symposium} on {Artificial}
+  {Neural} {Networks} ({ESANN} 2012), {Bruges}, {Belgium}}, volume~4, pages
+  103--108.
+
+\bibitem[Sp{\"u}ler et~al., 2014]{spuler_decoding_2014}
+Sp{\"u}ler, M., Walter, A., Ramos-Murguialday, A., Naros, G., Birbaumer, N.,
+  Gharabaghi, A., Rosenstiel, W., and Bogdan, M. (2014).
+\newblock Decoding of motor intentions from epidural ecog recordings in
+  severely paralyzed chronic stroke patients.
+\newblock {\em Journal of neural engineering}, 11(6):066008.
+
+\bibitem[Sra, 2016]{sra_positive_2016}
+Sra, S. (2016).
+\newblock Positive definite matrices and the {S}-divergence.
+\newblock {\em Proceedings of the American Mathematical Society},
+  144(7):2787--2797.
+
+\bibitem[Sturm et~al., 2016]{sturm_interpretable_2016}
+Sturm, I., Bach, S., Samek, W., and Müller, K.-R. (2016).
+\newblock Interpretable {Deep} {Neural} {Networks} for {Single}-{Trial} {EEG}
+  {Classification}.
+\newblock {\em arXiv preprint arXiv:1604.08201}.
+
+\bibitem[Sutter, 1992]{sutter_brain_1992}
+Sutter, E.~E. (1992).
+\newblock The brain response interface: communication through visually-induced
+  electrical brain responses.
+\newblock {\em Journal of Microcomputer Applications}, 15(1):31--45.
+
+\bibitem[Sutton et~al., 1965]{sutton_evoked-potential_1965}
+Sutton, S., Braren, M., Zubin, J., and John, E.~R. (1965).
+\newblock Evoked-potential {Correlates} of {Stimulus} {Uncertainty}.
+\newblock {\em Science}, 150:1187--1188.
+
+\bibitem[Sutton et~al., 1967]{sutton_information_1967}
+Sutton, S., Tueting, P., Zubin, J., and John, E.~R. (1967).
+\newblock Information {Delivery} and the {Sensory} {Evoked} {Potential}.
+\newblock {\em Science}, 155(3768):1436--1439.
+
+\bibitem[Szuromi et~al., 2010]{szuromi_p300_2010}
+Szuromi, B., Czobor, P., Komlosi, S., and Bitter, I. (2010).
+\newblock P300 deficits in adults with attention deficit hyperactivity
+  disorder: a meta-analysis.
+\newblock {\em Psychol Med.}, 41(7):1529--1538.
+
+\bibitem[Taylor et~al., 2002]{taylor_direct_2002}
+Taylor, D.~M., Tillery, S. I.~H., and Schwartz, A.~B. (2002).
+\newblock Direct {Cortical} {Control} of 3d {Neuroprosthetic} {Devices}.
+\newblock {\em Science}, 296(5574):1829--1832.
+
+\bibitem[Team, 2016]{team_elekta_2016}
+Team, E.~W. (2016).
+\newblock Elekta {Neuromag}® {TRIUX}™ {Functional} {Mapping}.
+
+\bibitem[{Toro, C. and Deuschl, G and Thatcher, R and Sato, S. and Kufta, C and
+  Hallett, M.},
+  1994]{toro_c._and_deuschl_g_and_thatcher_r_and_sato_s._and_kufta_c_and_hallett_m._event-related_1994}
+{Toro, C. and Deuschl, G and Thatcher, R and Sato, S. and Kufta, C and Hallett,
+  M.} (1994).
+\newblock Event-related desynchronization and movement-related cortical
+  potentials on the {ECoG} and {EEG}.
+\newblock {\em Electroencephalography and Clinical Neurophysiology/Evoked
+  Potentials Section}, 93(5):380--389.
+
+\bibitem[Treder et~al., 2011]{treder_gaze-independent_2011}
+Treder, M.~S., Schmidt, N.~M., and Blankertz, B. (2011).
+\newblock Gaze-independent brain–computer interfaces based on covert
+  attention and feature attention.
+\newblock {\em Journal of neural engineering}, 8(6):066003.
+
+\bibitem[Van~Dyk and Meng, 2001]{van_dyk_art_2001}
+Van~Dyk, D.~A. and Meng, X.-L. (2001).
+\newblock The art of data augmentation.
+\newblock {\em Journal of Computational and Graphical Statistics}, 10(1).
+
+\bibitem[Van~Erp et~al., 2012]{van_erp_brain-computer_2012}
+Van~Erp, J.~B., Lotte, F., and Tangermann, M. (2012).
+\newblock Brain-computer interfaces: beyond medical applications.
+\newblock {\em Computer}, 45(4):26--34.
+
+\bibitem[Verschore et~al., 2012]{verschore_dynamic_2012}
+Verschore, H., Kindermans, P.-J., Verstraeten, D., and Schrauwen, B. (2012).
+\newblock Dynamic stopping improves the speed and accuracy of a {P}300 speller.
+\newblock In {\em Artificial {Neural} {Networks} and {Machine}
+  {Learning}–{ICANN} 2012}, pages 661--668. Springer.
+
+\bibitem[Vialatte et~al., 2010]{vialatte_steady-state_2010}
+Vialatte, F.-B., Maurice, M., Dauwels, J., and Cichocki, A. (2010).
+\newblock Steady-state visually evoked potentials: focus on essential paradigms
+  and future perspectives.
+\newblock {\em Progress in neurobiology}, 90(4):418--438.
+
+\bibitem[Vidal, 1973]{vidal_toward_1973}
+Vidal, J.~J. (1973).
+\newblock Toward direct brain-computer communication.
+\newblock {\em Annual review of biophysics and bioengineering}, 2(1):157--180.
+
+\bibitem[Villani, 2008]{VIL08}
+Villani, C. (2008).
+\newblock {\em Optimal transport: old and new}, volume 338.
+\newblock Springer Science \& Business Media.
+
+\bibitem[Wang et~al., 2011]{wang_motor_2011}
+Wang, L., Xu, G., Wang, J., Yang, S., and Yan, W. (2011).
+\newblock Motor {Imagery} {BCI} {Research} {Based} on {Hilbert}-{Huang}
+  {Transform} and {Genetic} {Algorithm}.
+\newblock {\em Bioinformatics and Biomedical Engineering, (iCBBE) 2011 5th
+  International Conference on}, pages 1--4.
+
+\bibitem[Wang et~al., 2015]{wang_review_2015}
+Wang, P., Lu, J., Zhang, B., and Tang, Z. (2015).
+\newblock A review on transfer learning for brain-computer interface
+  classification.
+\newblock In {\em Information {Science} and {Technology} ({ICIST}), 2015 5th
+  {International} {Conference} on}, pages 315--322. IEEE.
+
+\bibitem[Wang and James, 2006]{wang_enhancing_2006}
+Wang, S. and James, C.~J. (2006).
+\newblock Enhancing {Evoked} {Responses} for {BCI} {Through} {Advanced} {ICA}
+  {Techniques}.
+\newblock In {\em Advances in {Medical}, {Signal} and {Information}
+  {Processing} ({MEDSIP})}, pages 1--4.
+
+\bibitem[Wang et~al., 2013]{wang_electrocorticographic_2013}
+Wang, W., Collinger, J.~L., Degenhart, A.~D., Tyler-Kabara, E.~C., Schwartz,
+  A.~B., Moran, D.~W., Weber, D.~J., Wodlinger, B., Vinjamuri, R.~K., Ashmore,
+  R.~C., Kelly, J.~W., and Boninger, M.~L. (2013).
+\newblock An {Electrocorticographic} {Brain} {Interface} in an {Individual}
+  with {Tetraplegia}.
+\newblock {\em PLoS ONE}, 8(2).
+
+\bibitem[Wang and Jung, 2013]{wang_improving_2013}
+Wang, Y. and Jung, T.-P. (2013).
+\newblock Improving {Brain}-computer {Interfaces} {Using} {Independent}
+  {Component} {Analysis}.
+\newblock {\em Towards Practical Brain-Computer Interfaces}, pages 67--83.
+
+\bibitem[Wilson et~al., 2006]{wilson_ecog_2006}
+Wilson, J., Felton, E., Garell, P., Schalk, G., and Williams, J. (2006).
+\newblock {ECoG} factors underlying multimodal control of a brain-computer
+  interface.
+\newblock {\em Neural Systems and Rehabilitation Engineering, IEEE Transactions
+  on}, 14(2):246--250.
+
+\bibitem[Wolpaw et~al., 2000]{wolpaw_brain-computer_2000}
+Wolpaw, J.~R., Birbaumer, N., Heetderks, W., McFarland, D.~J., Peckham, P.,
+  Schalk, G., Donchin, E., Quatrano, L., Robinson, C., and Vaughan, T. (2000).
+\newblock Brain-computer interface technology: a review of the first
+  international meeting.
+\newblock {\em Rehabilitation Engineering, IEEE Transactions on},
+  8(2):164--173.
+
+\bibitem[Wolpaw et~al., 2002]{wolpaw_brain-computer_2002}
+Wolpaw, J.~R., Birbaumer, N., McFarland, D.~J., Pfurtscheller, G., and Vaughan,
+  T.~M. (2002).
+\newblock Brain-computer interfaces for communication and control.
+\newblock {\em Clinical Neurophysiology}, 113(6):767--791.
+
+\bibitem[Wolpaw and McFarland, 2004]{wolpaw_control_2004}
+Wolpaw, J.~R. and McFarland, D.~J. (2004).
+\newblock Control of a two-dimensional movement signal by a noninvasive
+  brain-computer interface in humans.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 101(51):17849--17854.
+
+\bibitem[Xie et~al., 2013]{xie_nonlinear_2013}
+Xie, Y., Ho, J., and Vemuri, B. (2013).
+\newblock On {A} {Nonlinear} {Generalization} of {Sparse} {Coding} and
+  {Dictionary} {Learning}.
+\newblock In {\em Proceedings of the 30th {International} {Conference} on
+  {Machine} {Learning}}, page 1480. NIH Public Access.
+
+\bibitem[Yan et~al., 2008]{yan_classifying_2008}
+Yan, T., Jingtian, T., Andong, G., and Wei, W. (2008).
+\newblock Classifying {EEG} {Signals} {Based} {HMM}-{AR}.
+\newblock {\em Bioinformatics and Biomedical Engineering, 2008. ICBBE 2008. The
+  2nd International Conference on}, pages 2111--2114.
+
+\bibitem[Yang et~al., 2014]{yang_time_2014}
+Yang, Y., Chevallier, S., Wiart, J., and Bloch, I. (2014).
+\newblock Time-frequency optimization for discrimination between imagination of
+  right and left hand movements based on two bipolar electroencephalography
+  channels.
+\newblock {\em EURASIP Journal on Advances in Signal Processing},
+  2014(1):1--18.
+
+\bibitem[Yger, 2013]{yger_review_2013}
+Yger, F. (2013).
+\newblock A review of kernels on covariance matrices for {BCI} applications.
+\newblock In {\em Machine {Learning} for {Signal} {Processing} ({MLSP}), 2013
+  {IEEE} {International} {Workshop} on}, pages 1--6. IEEE.
+
+\bibitem[Yin et~al., 2013]{yin_novel_2013}
+Yin, E., Zhou, Z., Jiang, J., Chen, F., Liu, Y., and Hu, D. (2013).
+\newblock A novel hybrid {BCI} speller based on the incorporation of {SSVEP}
+  into the {P}300 paradigm.
+\newblock {\em Journal of Neural Engineering}, 10(2).
+
+\bibitem[Yoo et~al., 2004]{yoo_braincomputer_2004}
+Yoo, S.-S., Fairneny, T., Chen, N.-K., Choo, S.-E., Panych, L.~P., Park, H.,
+  Lee, S.-Y., and Jolesz, F.~A. (2004).
+\newblock Brain–computer interface using {fMRI}: spatial navigation by
+  thoughts.
+\newblock {\em Neuroreport}, 15(10):1591--1595.
+
+\bibitem[Yu et~al., 2014]{yu_analysis_2014}
+Yu, X., Chum, P., and Sim, K.-B. (2014).
+\newblock Analysis the effect of {PCA} for feature reduction in non-stationary
+  {EEG} based motor imagery of {BCI} system.
+\newblock {\em Optik-International Journal for Light and Electron Optics},
+  125(3):1498--1502.
+
+\bibitem[Yuksel et~al., 2015]{yuksel_implicit_2015}
+Yuksel, B.~F., Afergan, D., Peck, E.~M., Griffin, G., Harrison, L., Chen,
+  N.~W., Chang, R., and Jacob, R.~J. (2015).
+\newblock Implicit {Brain}-{Computer} {Interaction} {Applied} to a {Novel}
+  {Adaptive} {Musical} {Interface}.
+\newblock Technical report, Technical Report TR-2015-01, Department of Computer
+  Science, Tufts University, 2015. www. cs. tufts. edu/Technical-Reports. html.
+
+\bibitem[Zander and Kothe, 2011]{zander_towards_2011}
+Zander, T.~O. and Kothe, C. (2011).
+\newblock Towards passive brain–computer interfaces: applying
+  brain–computer interface technology to human–machine systems in general.
+\newblock {\em Journal of Neural Engineering}, 8(2):025005+.
+
+\bibitem[Zhang et~al., 2012]{zhang_bci_2012}
+Zhang, H., Guan, C., Ang, K.~K., and Wang, C. (2012).
+\newblock {BCI} {Competition} {IV} – {Data} {Set} {I}: {Learning}
+  {Discriminative} {Patterns} for {Self}-{Paced} {EEG}-{Based} {Motor}
+  {Imagery} {Detection}.
+\newblock {\em Frontiers in Neuroscience}, 6.
+
+\bibitem[Zhang et~al., 2008]{zhang_asynchronous_2008}
+Zhang, H., Guan, C., and Wang, C. (2008).
+\newblock Asynchronous {P}300-{Based} {Brain}–{Computer} {Interfaces}: {A}
+  {Computational} {Approach} {With} {Statistical} {Models}.
+\newblock {\em Biomedical Engineering, IEEE Transactions on}, 55(6):1754--1763.
+
+\bibitem[Zhang et~al., 2007]{zhang_p300_2007}
+Zhang, J.-C., Xu, Y.-Q., and Yao, L. (2007).
+\newblock P300 {Detection} {Using} {Boosting} {Neural} {Networks} with
+  {Application} to {BCI}.
+\newblock {\em Complex Medical Engineering, 2007. CME 2007. IEEE/ICME
+  International Conference on}, pages 1526--1530.
+
+\bibitem[Zhang et~al., 2015a]{zhang_classification_2015}
+Zhang, Y., Ji, X., and Zhang, Y. (2015a).
+\newblock Classification of {EEG} signals based on {AR} model and approximate
+  entropy.
+\newblock In {\em Neural {Networks} ({IJCNN}), 2015 {International} {Joint}
+  {Conference} on}, pages 1--6. IEEE.
+
+\bibitem[Zhang et~al., 2015b]{zhang_comparison_2015}
+Zhang, Y., Zhang, Y., Wang, J., and Zheng, X. (2015b).
+\newblock Comparison of classification methods on {EEG} signals based on
+  wavelet packet decomposition.
+\newblock {\em Neural Computing and Applications}, 26(5):1217--1225.
+
+\bibitem[Zhu et~al., 2010]{zhu_survey_2010}
+Zhu, D., Bieger, J., Molina, G.~G., and Aarts, R.~M. (2010).
+\newblock A survey of stimulation methods used in {SSVEP}-based {BCIs}.
+\newblock {\em Intell. Neuroscience}, 2010:1--12.
+
+\end{thebibliography}

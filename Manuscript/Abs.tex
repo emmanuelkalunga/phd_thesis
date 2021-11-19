@@ -1,0 +1,42 @@
+		% ------------------------------------------------------------------------
+% -*-TeX-*- -*-Hard-*- Smart Wrapping
+% ------------------------------------------------------------------------
+% Thesis Abstract --------------------------------------------------------
+
+% \addtolength{\topmargin}{-1.6in}
+% \addtolength{\textheight}{1.6in}
+
+\prefacesection{Abstract}
+
+In the last two decades, interest in Brain-Computer Interfaces (BCI) has tremendously grown, with a number of research laboratories working on the topic. 
+Since the \emph{Brain-Computer Interface Project} of Vidal in 1973, where BCI was introduced for rehabilitative and assistive purposes, the use of BCI has been extended to more applications such as neurofeedback and entertainment.
+The credit of this progress should be granted to an improved understanding of electroencephalography (EEG), an improvement in its measurement techniques, and increased computational power. 
+
+Despite the opportunities and potential of Brain-Computer Interface, the technology has yet to reach maturity and be used out of laboratories. 
+There are several challenges that need to be addresses before BCI systems can be used to their full potential.
+This work examines in depth some of these challenges, namely the specificity of BCI systems to users physical abilities, the robustness of EEG representation and machine learning, and the adequacy of training data.
+The aim is to provide a BCI system that can adapt to individual users in terms of their physical abilities/disabilities, and variability in recorded brain signals. 
+%Variabilities in recorded brain signals are due to differences in users brain anatomies, neuronal responses, as well as random noise in the experimental environment.
+
+To this end, two main avenues are explored: the first, which can be regarded as a high-level adjustment, is a change in BCI paradigms. 
+It is about creating new paradigms that increase their performance, ease the discomfort of using BCI systems, and adapt to the user's needs.
+The second avenue, regarded as a low-level solution, is the refinement of signal processing and machine learning techniques to enhance the EEG signal quality, pattern recognition and classification.   
+
+On the one hand, a new methodology in the context of assistive robotics is defined: it is a hybrid approach where a physical interface is complemented by a Brain-Computer Interface (BCI) for human machine interaction.
+This hybrid system makes use of user’s residual motor abilities and offers BCI as an optional choice: the user can choose when to rely on BCI and could alternate between the muscular- and brain-mediated interface at the appropriate time. 
+ 
+%The concept is demonstrated for patients with degenerative diseases that affect large muscles but spare the wrists and hands motor capacities. An adapted 3D touchless interface is used for continuous control and a steady-state visually evoked potential (SSVEP)-based BCI for triggering specific actions. 
+%While the touchless interface allows the subject to use their residual motor abilities, the SSVEP-based BCI with state-of-the-art signal processing and machine learning~\citep{kalunga_ssvep_2013} is able to provide timely intervention for a better control in a multimodal setup. Experimentaly, the concept is evaluated for navigation in a virtual environment and in the control of a robotic arm exoskeleton designed to compensate for muscular dystrophy in the shoulder and elbow muscles occurring in our subjects of interest~\citep{kalunga_hybrid_2014}.
+
+On the other hand, for the refinement of signal processing and machine learning techniques, this work uses a Riemannian framework.
+A major limitation in this filed is the EEG poor spatial resolution. 
+This limitation is due to the volume conduction effect, as the skull bones act as a non-linear low pass filter, mixing the brain source signals and thus reducing the signal-to-noise ratio. 
+Consequently, spatial filtering methods have been developed or adapted. 
+Most of them (i.e. Common Spatial Pattern, xDAWN, and Canonical Correlation Analysis) are based on covariance matrix estimations. 
+The covariance matrices are key in the representation of information contained in the EEG signal and constitute an important feature in their classification.
+In most of the existing machine learning algorithms, covariance matrices are treated as elements of the Euclidean space. 
+However, being Symmetric and Positive-Definite (SPD), covariance matrices lie on a curved space that is identified as a Riemannian manifold. 
+Using covariance matrices as features for classification of EEG signals and handling them with the tools provided by Riemannian geometry provide a robust framework for EEG representation and learning. 
+
+%#####################################################################################################
+% ----------------------------------------------------------------------

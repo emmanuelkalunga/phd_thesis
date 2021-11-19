@@ -1,0 +1,16 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Comparison with other algorithms}}{72}{table.4.1}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Distance covered and duration of experiments, without shortcuts (None), with BCI-activated shortcuts (BCI-S) and with keyboard-activated shortcuts (KB-S).}}{76}{table.4.2}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Distances, divergences and means considered in the experimental study.}}{94}{table.5.1}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Subject classification accuracy (acc(\%)) and average CPU time (time(s)) elapsed for the classification of a single trial. Classification is performed with MDM using either Euclidean or Riemannian means (see Table\nobreakspace {}\ref {tab:dist}).}}{114}{table.5.2}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Offline performance in terms of accuracy and ITR. Five methods are compared: (1) CCA approach introduced by \citep {lin_frequency_2006}, (2) CCA approach introduced by \citep {nakanishi_high-speed_2014}, (3) MDRM described in Section \ref {subsec:mdm} (Algorithm \ref {alg:mdm}), (4) MDRM where processed epochs are taken 2 seconds from the beginning of the trial, and (5) MDRM-Potato, where outliers are removed using the Riemannian potato approach described in Section\nobreakspace {}\ref {sec:potato}.}}{115}{table.5.3}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Classification performances (accuracy in \%, delay before valid and confident classification in seconds, and ITR in bits/min) achieved using the online algorithm. The first column indicates the subjects. The following three columns show the results obtained without the curve direction criterion (Algorithm \ref {alg:online} up to \ref {op3:test_rho}): by stopping at step \ref {op3:test_rho}, $\ensuremath {\mathaccentV {bar}016{\ensuremath {k}}}$ is taken to be the valid class. The next three columns contain the results of the complete online algorithm. The last three columns report the results obtained when outliers are removed in the training phase using the Riemannian potato technique described in Section \ref {sec:potato}.}}{115}{table.5.4}
+\contentsline {table}{\numberline {5.5}{\ignorespaces This table summarises the performance achieved with the online algorithm with resting class identification, as in Table\nobreakspace {}\ref {tab:res-online}. }}{117}{table.5.5}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Comparison of classification accuracy (in \%) using the MLP on original dataset, MLP with data augmentation (aug+MLP), RK-SVM and TSLDA.}}{128}{table.6.1}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Sensitivity analysis of performances obtained with 3 classifiers trained with imbalanced training set versus trained with balanced training set. The class imbalance of the ERP dataset is solved with data augmentation.}}{130}{table.6.2}
+\addvspace {10\p@ }

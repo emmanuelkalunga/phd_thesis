@@ -1,0 +1,365 @@
+% ------------------------------------------------------------------------
+% -*-TeX-*- -*-Hard-*- Smart Wrapping
+% ------------------------------------------------------------------------
+% AMS-LaTeX definitions:     Thesis ++++ Alex, September 1994 ************
+% ------------------------------------------------------------------------
+% Ph.D. Thesis Defended on November 25, 1994
+% ------------------------------------------------------------------------
+\documentclass[12pt]{report}
+\usepackage{graphicx}
+%\usepackage{graphicx,float,subfigure,hyperref,pgf,tikz,mathrsfs,dblfloatfix}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	citecolor=blue %[rgb]{0.4,0.4,0.4}
+}
+\usepackage{epigraph}
+
+% \epigraphsize{\small}% Default
+\setlength\epigraphwidth{8cm}
+\setlength\epigraphrule{0pt}
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\epigraph}{\@epitext{#1}}{\itshape\@epitext{#1}}{}{}
+\makeatother
+
+\usepackage{float}
+\usepackage[nice]{nicefrac}
+\usepackage{geometry}
+%\usepackage[left=2.5cm,top=3cm,right=3cm,bottom=3cm,bindingoffset=0.0cm]{geometry}
+\usepackage[centertags]{amsmath}
+%\usepackage[T1]{fontenc}
+%\usepackage{mathptmx}
+\usepackage{tabto}
+\usepackage{color}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{subfigure}
+\usepackage{amsthm}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{adjustbox,lipsum}
+\usepackage{pgf}
+\usepackage{rotating}
+%\usepackage[font=footnotesize]{caption}
+%\usepackage[font=footnotesize]{subcaption}
+%\usepackage[cmex10]{amsmath}
+\usepackage{newlfont}
+\usepackage{enumitem}
+\usepackage{natbib} %bib package for citep
+\usepackage{XThesis} %DAL Thesis Style
+\usepackage{XTocinc} %Include Table of Contents as the first entry in TOC
+%                     Faculty of Grad Studies insists on this!?
+%\usepackage[active]{srcltx}  %SRC Specials for DVI search
+% Fuzz -------------------------------------------------------------------
+\hfuzz2pt % Don't bother to report over-full boxes if over-edge is < 2pt
+% Line spacing -----------------------------------------------------------
+\newlength{\defbaselineskip}
+\setlength{\defbaselineskip}{\baselineskip}
+\newcommand{\setlinespacing}[1]%
+           {\setlength{\baselineskip}{#1 \defbaselineskip}}
+\newcommand{\doublespacing}{\setlength{\baselineskip}%
+                           {2.0 \defbaselineskip}}
+\newcommand{\singlespacing}{\setlength{\baselineskip}{\defbaselineskip}}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+% MATH -------------------------------------------------------------------
+\newcommand{\A}{{\cal A}}
+\newcommand{\h}{{\cal H}}
+\newcommand{\s}{{\cal S}}
+\newcommand{\W}{{\cal W}}
+\newcommand{\BH}{\mathbf B(\cal H)}
+\newcommand{\KH}{\cal  K(\cal H)}
+\newcommand{\Real}{\mathbb R}
+\newcommand{\Complex}{\mathbb C}
+\newcommand{\Field}{\mathbb F}
+\newcommand{\RPlus}{[0,\infty)}
+%
+% My macros
+\newcommand{\note}[1]{\textcolor{red}{#1}}
+%\newcommand{\x}{\ensuremath{x}}
+\newcommand{\y}{\ensuremath{y}}
+
+\newcommand{\norm}[1]{\left\Vert#1\right\Vert}
+\newcommand{\essnorm}[1]{\norm{#1}_{\text{\rm\normalshape ess}}}
+\newcommand{\abs}[1]{\left\vert#1\right\vert}
+\newcommand{\set}[1]{\left\{#1\right\}}
+\newcommand{\seq}[1]{\left<#1\right>}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\To}{\longrightarrow}
+\newcommand{\RE}{\operatorname{Re}}
+\newcommand{\IM}{\operatorname{Im}}
+\newcommand{\Poly}{{\cal{P}}(E)}
+\newcommand{\EssD}{{\cal{D}}}
+
+
+
+\newcommand{\X}{\ensuremath{X}} % Trial signal matrix (training) :				X
+\newcommand{\onlineX}{\ensuremath{\chi}} % Trial signal matrix (training) :		X
+\newcommand{\Y}{\ensuremath{Y}} % Trial signal matrix (test): 						Y
+\newcommand{\totd}{\ensuremath{{m}}} % dimension of the manifold : 				m
+\newcommand{\chI}{\ensuremath{c}} %channel or channel index: 					c
+\newcommand{\dc}{\ensuremath{C}} % dimension nb of electrode : 					C
+\newcommand{\si}{\ensuremath{n}} %sample or sample index: 							n
+\newcommand{\dt}{\ensuremath{N}} % dimension nb of samples (trial length):		N
+\newcommand{\dr}{\ensuremath{\mathcal{N}}} % recording length:						N
+\newcommand{\nb}{\ensuremath{i}} %index of a number : 								i
+\newcommand{\Nb}{\ensuremath{I}} %a number of objects : 							I
+\newcommand{\ci}{\ensuremath{k}} %class or class index: 							k
+\newcommand{\dK}{\ensuremath{K}} %nb classes for SSVEP:	              K
+\newcommand{\df}{\ensuremath{f}} %frequency SSVEP index:	            f
+\newcommand{\dF}{\ensuremath{F}} %dimension nb of frequencies for SSVEP:	F
+\newcommand{\ti}{\ensuremath{i}} %trial or trial index: 							i
+\newcommand{\dT}{\ensuremath{I}} %dimension nb of trials : 						I
+\newcommand{\setindex}{\ensuremath{\mathcal{I}}} %Set of indeces of trials corresponding to a specific class I
+\newcommand{\dd}{\ensuremath{D}} %dimension nb of segment(epochs) for classif: 	D
+\newcommand{\tj}{\ensuremath{j}} %trial or trial index: 							j
+\newcommand{\Dindex}{\ensuremath{\mathcal{J}}} %Set of indeces within the last \dd segments (epoch) 
+\newcommand{\fpnorm}{\ensuremath{p}} %fixed pont normalisation factor :			p
+\newcommand{\cue}{\ensuremath{\tau_0}} %Cue on set time:							tau
+\newcommand{\deltaN}{\ensuremath{\Delta \si}} % Sliding step size 
+\newcommand{\ws}{\ensuremath{w}} % Sliding window size							w
+%------------------------------------------------------------------------------
+\newcommand{\w}{\ensuremath{\mathbf{w}}} % bold w (filter)							w
+\newcommand{\m}{\ensuremath{\mathbf{m}}}	%						bold				m 
+\newcommand{\scat}{\ensuremath{\tilde{s}^2}}
+\newcommand{\Scat}{\ensuremath{\mathbf{\Sigma}}}
+\newcommand{\Yc}{\ensuremath{\mathcal{Y}}}
+\newcommand{\Xc}{\ensuremath{\mathcal{X}}}
+\newcommand{\dotSpace}{\ensuremath{\mathcal{H}}}
+\newcommand{\inputSpace}{\ensuremath{\mathcal{X}}}
+\newcommand{\xfilt}{\ensuremath{\mathbf{u}}} %			xdawn filter
+\newcommand{\ssnr}{\ensuremath{\rho}}
+
+\newcommand{\di}{\ensuremath{d}} % Sliding segment(epoch) index							d
+\newcommand{\Xs}[1] {\ensuremath{\X_{\operatorname{\text{#1}}}}} % Sliding EEG Segment(epoch)
+\newcommand{\Xsig}{\ensuremath{\overrightarrow{\X}}}
+\newcommand{\GenMa}{\ensuremath{\mathcal{M}}} %generic manifold M
+\newcommand{\Ma}{\ensuremath{\mathcal{M}_{\dc}}} % Riemannian manifold of SPD matrices
+\newcommand{\Sy}{\ensuremath{\mathcal{S}_{\dc}}} % Euclidean space of symmetric matrices
+\renewcommand{\P}{\ensuremath{\Sigma}} % A point of the Riemannian manifold, was P
+\renewcommand{\S}{\ensuremath{\Theta}} % A point of the tangent space, was S
+\newcommand{\ev}{\ensuremath{\lambda}} % an eigenvector
+\newcommand{\distF}{\ensuremath{d_{\operatorname{E}}}} % Frobenius metric
+\newcommand{\distR}{\ensuremath{\delta}} % Riemannian metric
+\newcommand{\distLE}{\ensuremath{d_{\operatorname{LE}}}} % LogEuclidean distance
+\newcommand{\distH}{\ensuremath{d_{\operatorname{H}}}}
+\newcommand{\distW}{\ensuremath{d_{\operatorname{W}}}}
+\newcommand{\distAIRM}{\ensuremath{d_{\operatorname{AI}}}} % Affine invariant Riemannian metric distance
+\newcommand{\distB}{\ensuremath{d_{\operatorname{B}}}} % Log Det distance
+\newcommand{\distAD}{\ensuremath{d_{\alpha\operatorname{D}}}} % Log Det distance
+\newcommand{\dist}{\ensuremath{d}} % distance (metric)		d
+\newcommand{\Pm}{\ensuremath{\bar{\P}}} % Karcher Mean of Matrices
+\newcommand{\PmE}{\ensuremath{\bar{\P}_{\operatorname{E}}}} % Euclidean Mean of Matrices
+\newcommand{\PmLE}{\ensuremath{\bar{\P}_{\operatorname{LE}}}} % LogEuclidean Mean of Matrices
+\newcommand{\PmKL}{\ensuremath{\bar{\P}_{\operatorname{KL}}}} % KL Mean of Matrices
+\newcommand{\PmAIRM}{\ensuremath{\bar{\P}_{\operatorname{AI}}}} % AIRM Mean of Matrices
+\newcommand{\PmB}{\ensuremath{\bar{\P}_{\operatorname{B}}}} % LogDet Mean of Matrices
+\newcommand{\PmAD}{\ensuremath{\bar{\P}_{\alpha\operatorname{d}}}} % LogDet Mean of Matrices
+\newcommand{\PmH}{\ensuremath{\bar{\P}_{\operatorname{H}}}} % Euclidean Mean of Matrices
+\newcommand{\metric}{\ensuremath{\mathit{d}}} % Riemannian metric		d
+\newcommand{\divB}[1]{\ensuremath{D_{\operatorname{#1}}}}
+\newcommand{\tr}{\ensuremath{\operatorname{tr}}}
+\newcommand{\mdrmpotato}{MDRM-Potato}
+\newcommand{\onlinepotato}{Online-Potato}
+
+\newcommand{\Rm}{\ensuremath{\mu}} % Riemannian mean
+\newcommand{\EX}{\ensuremath{\omega}} % Expected vector of \X
+\newcommand{\tarco}{\ensuremath{\Gamma}} % target covariance in shrinkage estimator
+\newcommand{\mle}{\ensuremath{\hat{\ell}}} % maximum likelihood estimator of fixed point cov
+\newcommand{\fmle}{\ensuremath{g}} % function of fixed point cov MLE
+\newcommand{\supertrial}{\ensuremath{Z}} % super-trial signal of Barachant.
+\newcommand{\pocc}{\ensuremath{\rho}} % occurence probability for classification 
+\newcommand{\pthres}{\ensuremath{\vartheta}} % probability threshold for classification
+
+\newcommand{\clout}{\ensuremath{\ci^*}} % class output from classification algo 1  :f*
+\newcommand{\cloutOn}{\ensuremath{\tilde{\ci}}} % class output from classification algo 2  :~f
+\newcommand{\cloutmp}{\ensuremath{\bar{\ci}}} % class output from classification algo 2  :f**
+\newcommand{\clarray}{\ensuremath{\mathcal{K}}} % class output from classification algo 2  :~f
+
+% \newcommand{\mle}{\ensuremath{\hat{\mathbf{M}}}}
+%\newcommand{\SCM}{\ensuremath{\mathbf{S}}}
+% \newcommand{\Po}{\ensuremath{\mathcal{P}}} no need, use \Ma instead
+%\newcommand{\Rm}{\ensuremath{\mathfrak{G}}} % I prefer to avoid German char
+\newcommand{\x}{\ensuremath{x}} % I prefer non-bold notations for vectors
+\newcommand{\xb}{\ensuremath{\bar{x}}}
+% \newcommand{\x}{\ensuremath{\mathbf{x}}}
+% \newcommand{\xb}{\ensuremath{\bar{x}}}}
+% \newcommand{\eye}{\ensuremath{\mathbbm{I}}}
+\newcommand{\eye}{\ensuremath{\mathbf{I}}}
+%\newcommand{\unitary}{\ensuremath{\mathbbm{1}}}
+\newcommand{\unitary}{\ensuremath{\mathbf{1}}}
+\newcommand{\argmin}{\arg\!\min}
+%\newcommand{\argmax}{\arg\!\max}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\renewcommand{\Re}{\ensuremath{\mathbb{R}}}
+\newcommand{\Log}[1]{\ensuremath{\operatorname{Log}_{#1}}}
+\newcommand{\Exp}[1]{\ensuremath{\operatorname{Exp}_{#1}}}
+\newcommand{\Expm}{\ensuremath{\operatorname{Exp}}}
+\newcommand{\Logm}{\ensuremath{\operatorname{Log}}}
+\newcommand{\cov}[1]{\ensuremath{\hat{\Sigma}_{\operatorname{#1}}}}
+\newcommand{\disvec}{\ensuremath{\widetilde{\delta}}} %\vec{\delta}}}
+\newcommand{\diffdist}{\ensuremath{\delta}}  % \pmb{\delta}}}
+\newcommand{\zs}{\ensuremath{\mathit{z}}} % Sliding window size
+
+\newcommand{\Dtr}{\ensuremath{\mathcal{D}}} 
+\newcommand{\Ttr}{\ensuremath{\mathcal{T}}} 
+\newcommand{\ftr}{\ensuremath{\mathit{f}}}
+\newcommand{\Xtr}{\ensuremath{\mathcal{X}}}
+\newcommand{\Ytr}{\ensuremath{\mathcal{Y}}} 
+
+\newcommand{\simil}{\ensuremath{\mathtt{s}}} 		% Similarity between two subjects
+\newcommand{\kld}{\ensuremath{\text{KL}_D}}		% Kullback Leibler divergence
+\newcommand{\cm}{\ensuremath{\mathbf{C}_c}}		% Class mean
+\newcommand{\ccm}{\ensuremath{\mathfrak{C}_c}}		% Composite class mean
+% THEOREMS ---------------------------------------------------------------
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+%
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}[section]
+%\newtheorem{defn}[thm]{Definition} 
+%
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}[section]
+%
+\numberwithin{equation}{section}
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+%%% ----------------------------------------------------------------------
+
+\setlength{\tclineskip}{1.05\baselineskip}
+%%% ----------------------------------------------------------------------
+\setcitestyle{square}
+%\nobib
+%\draft
+%\nofront
+
+%\permissionfalse
+
+%\dedicate{To my loving parents, Alphonsine and Justin Kalunga, to my brother and sisters.\\
+%Your love, patience, and care have always accompanied me}
+
+\nolistoftables
+\nolistoffigures
+%\dtech
+\phd
+%\copyrightyear{1994}
+\submitdate{July, 2016}
+\date{21 Octobre 2016}
+%\convocation{May}{1995}
+
+% ------------------------------------------------------------------------
+
+\title{Toward User-adapted Brain Computer Interfaces: Robust Interaction and Machine Learning based on Riemannian Geometry}
+%
+\author{Emmanuel K. Kalunga}
+%
+\supervisor{\\Karim Djouani - Professor\\Eric Monacelli - Associate Professor }
+%
+\cosupervisor{\\Sylvain Chevallier - Associate Professor \\ Yskandar Hamam - Professor }
+%
+
+%
+\dept{Sciences et Technologies de l'Information et de la Communication}
+%
+\field{Computer Science}
+%
+\university{Universit\'{e} Paris-Saclay, UVSQ}
+
+\degrees{Doctor Technologiae} 
+\degreeinitials{D-Tech}
+\fields{Electrical Engineering}
+\faculty{Faculty of Engineering and the Built Environment}
+\universitys{Tshwane University of Technology}
+% ------------------------------------------------------------------------
+
+\begin{document}
+%{
+\typeout{:?000000000} % Don't bother with over/under-full boxes
+\beforepreface
+\typeout{:?111111111} % Process All Errors from Here on
+%}
+% --------------------------------------------------------------------------
+%\setcounter{page}{1}
+%\tableofcontents
+
+%% ------------------------------------------------------------------------
+%{ \typeout{Acknowledgements}
+%\include{Ack}
+%}
+%% ------------------------------------------------------------------------
+%{
+\typeout{Abstract}
+\include{Abs}
+%}
+
+%\tableofcontents
+% ---------------------------------------------------------------------------
+\afterpreface
+%% ------------------------------------------------------------------------
+%{ \typeout{Definitions}
+%\include{GLOS}
+\pagenumbering{arabic}
+%}
+\def\baselinestretch{1}
+\setlinespacing{1.2}
+%\setlinespacing{1.25}
+
+%\addtolength{\topmargin}{-.975in}
+%\addtolength{\textheight}{-.1in}
+
+% ------------------------------------------------------------------------
+%{
+\typeout{Introduction}
+\include{T1}
+%}
+% ------------------------------------------------------------------------
+%\setlinespacing{1.66}
+% \addtolength{\topmargin}{-.875in}
+% \addtolength{\textheight}{.875in}
+ %\addtolength{\footskip}{-1.875in}
+ 
+% \comment{
+%    \usepackage[
+%    top    = 2.75cm,
+%    bottom = 2.50cm,
+%    left   = 3.00cm,
+%    right  = 2.50cm]{geometry}
+%    }
+% ------------------------------------------------------------------------
+
+\include{T2}
+\include{T3}
+\include{T4}
+\include{T5}
+\include{T6}
+\include{T7}
+%\include{publications}
+% ------------------------------------------------------------------------
+%\setlinespacing{1.44}
+\setlinespacing{1.00}
+\bibliographystyle{apalike_hdr}
+%\bibliographystyle{IEEEtran}
+%\bibliography{xbib}
+%\bibliography{BCIBib}
+\bibliography{thesisbib}
+%FIX AUTHORS NAMES WITH ACCENTS:
+% - Kubler
+% - Grobler
+% =================================================================
+% Dummy directive
+% Included for Gather Purpose only:
+% %input "Xbib.bib"
+% is no longer necessary because
+%  \bibliography{xbib}
+% is now defined as an input directive
+% (see Options -> Advanced -> Tree [INPUT_DIRECTIVES] for details...
+% It can be reconfigured!
+% =================================================================
+\end{document}
+% ------------------------------------------------------------------------
